@@ -2,5 +2,5 @@ type: material
 name: Iron
 description: Easy to find and to use.
 hardness: 2
-cost: 2
+cost: 1
 color: ffffff

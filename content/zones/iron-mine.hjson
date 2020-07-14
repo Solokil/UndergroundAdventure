@@ -1,0 +1,28 @@
+name: Iron Mine
+description: An abundant mine with iron. be aware from enemys coming from anyside!
+loadout: basicFoundation
+startingItems:
+[
+  copper/300
+]
+conditionWave: 8
+launchPeriod: 4
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 5
+  }
+  {
+    type: Unlock
+    block: router
+  }
+]
+resources: [
+  copper
+  // my first mineral
+  iron
+  lead
+  coal
+  scrap
+]
