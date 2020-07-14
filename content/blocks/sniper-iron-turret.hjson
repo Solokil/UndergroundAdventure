@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ArtilleryTurret
 name: Sniper Iron Turret
 description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!
 health: 740
@@ -8,6 +8,7 @@ range: 350
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0.7
 rotatespeed: 10
+targetAir: true
 ammo: {
   iron: {
     //move 6 world units per frame (very fast)
