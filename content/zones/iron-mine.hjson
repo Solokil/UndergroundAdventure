@@ -1,6 +1,6 @@
 name: Iron Mine
 description: An abundant mine with iron. be aware from enemys coming from anyside!
-loadout: advancedFoundation
+loadout: basicFoundation
 startingItems:
 [
   copper/300
