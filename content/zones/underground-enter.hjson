@@ -8,7 +8,7 @@ startingItems:
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
-loadout: AdvancedShard
+loadout: advancedShard
 conditionWave: 15
 launchPeriod: 10
 requirements: [
