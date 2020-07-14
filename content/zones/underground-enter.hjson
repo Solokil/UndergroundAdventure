@@ -16,10 +16,6 @@ requirements: [
   }
   {
     type: Unlock
-    block: sniper-iron-turret
-  }
-  {
-    type: Unlock
     block: thermal-generator
   }
 ]
