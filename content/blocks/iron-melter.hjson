@@ -18,10 +18,10 @@ consumes: {
 requirements: [
   lead/130
   copper/90
-  iron/20
+  iron/200
 ]
 category: crafting
-research: graphite-press
+research: iron-extractor
 idleSound: respawning
 idleSoundVolume: 0.5
 

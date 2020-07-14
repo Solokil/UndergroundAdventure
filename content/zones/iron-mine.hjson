@@ -1,13 +1,12 @@
 name: Iron Mine
 description: An abundant mine with iron. be aware from enemys coming from anyside!
-loadout: basicFoundation
+loadout: advancedFoundation
 startingItems:
 [
   copper/300
 ]
 conditionWave: 10
 launchPeriod: 5
-loadout: basicNucleus
 requirements: [
   {
     type: ZoneWave

@@ -1,6 +1,5 @@
 name: Underground Enter
 description: A really advanced outpost lies in there, you don't wanna mess with then... Maybe if you want more building territory!
-loadout: basicFoundation
 startingItems:
 [
   copper/500
@@ -30,4 +29,5 @@ resources: [
   coal
   sand
   scrap
+  titanium
 ]

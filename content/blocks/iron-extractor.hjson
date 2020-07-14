@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Silver Crucible"
+description: "Find iron from the ground and extract it in its ore form."
+outputItem: {
+  item: iron
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+}
+requirements: [
+  lead/80
+  copper/30
+  silicon/25
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
