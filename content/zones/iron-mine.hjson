@@ -5,8 +5,9 @@ startingItems:
 [
   copper/300
 ]
-conditionWave: 8
-launchPeriod: 4
+conditionWave: 10
+launchPeriod: 5
+loadout: basicNucleus
 requirements: [
   {
     type: ZoneWave
