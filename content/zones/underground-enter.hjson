@@ -16,7 +16,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: iron-turret
+    block: sniper-iron-turret
   }
   {
     type: Unlock
