@@ -1,0 +1,10 @@
+name: Iron Wall
+description: A wall made of iron. not good but not worth wither.
+type: Wall
+health: 2500
+size: 2
+requirements: [
+  iron/35
+]
+category: defense
+research: small-iron-wall

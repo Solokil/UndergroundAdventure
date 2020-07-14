@@ -1,0 +1,6 @@
+name: Molten Iron
+description: Iron, to mix with other components or jusst solidify it even hard.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: cbcdcd

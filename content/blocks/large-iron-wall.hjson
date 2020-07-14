@@ -1,0 +1,10 @@
+name: Large Iron Wall
+description: Now this is a good wall!!!
+type: Wall
+health: 11250
+size: 3
+requirements: [
+  iron/140
+]
+category: defense
+research: iron-wall

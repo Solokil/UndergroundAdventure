@@ -1,0 +1,34 @@
+name: Underground Enter
+description: A really advanced outpost lies in there, you don't wanna mess with then...
+loadout: basicFoundation
+startingItems:
+[
+  copper/500
+  lead/200
+]
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: desertWastes
+    wave: 20
+  }
+  {
+    type: Unlock
+    block: iron-turret
+  }
+  {
+    type: Unlock
+    block: thermal-generator
+  }
+]
+resources: [
+  copper
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  scrap
+]
