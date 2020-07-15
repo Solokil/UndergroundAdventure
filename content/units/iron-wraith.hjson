@@ -8,14 +8,14 @@ description: Very slow and easy handable.
 flying: true
 health: 255
 
-
 //Moove Area
-speed: 0.13 //default is 0.4
-rotatespeed: 0.1 //default is 0.2
+speed: 0.04 //default is 0.4
+rotatespeed: 0.05 //default is 0.2
 range: 160 //
-baseRotateSpeed: 0.045 //default is 0.1
-mass: 3 //default is 1
-maxVelocity: 1.5 // default is 5
+baseRotateSpeed: 0.015 //default is 0.1
+mass: 5 //default is 1
+maxVelocity: 0.3 // default is 5
+
 
 
 //Weapon Stuff for shooting whatever
