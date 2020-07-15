@@ -7,9 +7,7 @@ description: Very slow and easy handable.
 
 speed: 0.13
 flying: true
-health: 205
-//like it's weith
-drag: 0.5
+health: 255
 targetAir: true
 engineOffset: 6.0
 range: 160
