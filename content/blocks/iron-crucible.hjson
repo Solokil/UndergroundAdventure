@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Iron Crucible"
+description: "Changes the structure of lead to seams like iron... not the true Iron but it will work just fine"
+outputItem: {
+  item: iron
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 8
+updateEffect: smeltsmoke
+consumes: {
+  item: lead
+  power: 0.1
+}
+requirements: [
+  lead/80
+  copper/30
+  silicon/5
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
