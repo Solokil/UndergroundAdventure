@@ -3,44 +3,44 @@ name: Iron Wraith
 description: Very slow and easy handable.
 
 //for units pussh and space pass
-//hitsize // default = 7
+//hitsize // default = 64
 //for hitbulletsize
-//hitsizeTile // default = 4
+//hitsizeTile // default = 8
 
 flying: true
-health: 255
+health: 2750
 
 
 //Moove Area
-speed: 0.04 //default is 0.4
-rotatespeed: 0.05 //default is 0.2
-range: 160 //
-baseRotateSpeed: 0.015 //default is 0.1
-mass: 5 //default is 1
-maxVelocity: 0.3 // default is 5
+speed: 0.12 //default is 0.4
+rotatespeed: 0.02 //default is 0.2
+range: 80 //
+baseRotateSpeed: 0.01 //default is 0.1
+mass: 7 //default is 1
+maxVelocity: 1.4 // default is 5
 
 
 //Weapon Stuff for shooting whatever
 
-engineOffset: 6.0
+engineOffset: 12
 targetAir: true
 
 weapon: {
     //to find weapon sprite
-  name: iron-blaster
+  name: iron-throw
   //shoot barrel y offset
   length: 1.5
   //shoot barrel x offset default is 4
-  width: 4
+  width: 8
   //reload time in frame
-  reload: 25
+  reload: 60
   //visual weapon knockback. default is 1.5
-  recoil: 1.5
+  recoil: 4
   //amount of shoots per fire
-  shoots: 4
+  shoots: 1
   //for shooting in one weapon then another instead of both at the same time
   alternate: true
-  targetDistance: 30
+  targetDistance: 60
   //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
   // the start crhome wrath example was lightning
   bullet: standardCopper
