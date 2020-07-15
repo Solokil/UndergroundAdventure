@@ -1,5 +1,5 @@
 type: flyingUnit
-name: Iron Wraith
+name: Destructor Iron Splash
 description: Very slow and easy handable.
 
 //for units pussh and space pass
@@ -14,7 +14,7 @@ health: 2750
 //Moove Area
 speed: 0.12 //default is 0.4
 rotatespeed: 0.02 //default is 0.2
-range: 80 //
+range: 120 //
 baseRotateSpeed: 0.01 //default is 0.1
 mass: 7 //default is 1
 maxVelocity: 1.4 // default is 5
@@ -29,9 +29,9 @@ weapon: {
     //to find weapon sprite
   name: iron-throw
   //shoot barrel y offset
-  length: 0.75
+  length: 6
   //shoot barrel x offset default is 4
-  width: 7
+  width: 14
   //reload time in frame
   reload: 60
   //visual weapon knockback. default is 1.5
@@ -42,14 +42,16 @@ weapon: {
   alternate: true
   targetDistance: 60
   //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
+
+
   // the start crhome wrath example was lightning
   bullet: standardCopper
 
 
-  //sprites:
-  //[
+}
+
+
+  //sprites:   (the sprites must be on srpites folder and contains the name of this unity)
     //<name>
     //<name>-leg
     //<name>-base
-  //]
-}
