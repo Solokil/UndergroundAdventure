@@ -47,7 +47,7 @@ weapon: {
   // the start crhome wrath example was lightning
   bullet: {
 type: BasicBulletType
-lifetime: 1000
+lifetime: 300
 //Moove Area
 speed: 0.85
 damage: 50
