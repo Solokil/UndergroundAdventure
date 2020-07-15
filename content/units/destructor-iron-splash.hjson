@@ -45,7 +45,7 @@ weapon: {
 
 
   // the start crhome wrath example was lightning
-  bullet: standardCopper
+  bullet: iron-splasher
 
 
 }
