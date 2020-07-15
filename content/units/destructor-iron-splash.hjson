@@ -29,7 +29,7 @@ weapon: {
     //to find weapon sprite
   name: iron-throw
   //shoot barrel y offset
-  length: 10
+  length: 15
   //shoot barrel x offset default is 4
   width: 10
   //reload time in frame
