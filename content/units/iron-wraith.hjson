@@ -5,12 +5,24 @@ description: Very slow and easy handable.
 //hitsize default = 7
 //hitSizeTile default = 4
 
-speed: 0.13
 flying: true
 health: 255
-targetAir: true
+
+
+//Moove Area
+speed: 0.13 //default is 0.4
+rotatespeed: 0.1 //default is 0.2
+range: 160 //
+baseRotateSpeed: 0.045 //default is 0.1
+mass: 3 //default is 1
+maxVelocity: 1.5 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
 engineOffset: 6.0
-range: 160
+targetAir: true
+
 weapon: {
     //to find weapon sprite
   name: iron-blaster
@@ -29,4 +41,12 @@ weapon: {
   //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
   // the start crhome wrath example was lightning
   bullet: standardCopper
+
+
+  //sprites:
+  //[
+    //<name>
+    //<name>-leg
+    //<name>-base
+  //]
 }
