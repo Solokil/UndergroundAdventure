@@ -22,16 +22,16 @@ maxVelocity: 1.4 // default is 5
 
 //Weapon Stuff for shooting whatever
 
-engineOffset: 12
+engineOffset: 10.5
 targetAir: true
 
 weapon: {
     //to find weapon sprite
   name: iron-throw
   //shoot barrel y offset
-  length: 1.5
+  length: 0.75
   //shoot barrel x offset default is 4
-  width: 8
+  width: 7
   //reload time in frame
   reload: 60
   //visual weapon knockback. default is 1.5
