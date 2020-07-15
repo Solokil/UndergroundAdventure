@@ -1,53 +1,7 @@
-type: flyingUnit
-name: Destructor Iron Splash
-description: Very slow and easy handable.
 
-//for units pussh and space pass
-//hitsize // default = 64
-//for hitbulletsize
-//hitsizeTile // default = 8
-
-flying: true
-health: 2750
-
-
-//Moove Area
-speed: 0.12 //default is 0.4
-rotatespeed: 0.02 //default is 0.2
-range: 120 //
-baseRotateSpeed: 0.01 //default is 0.1
-mass: 7 //default is 1
-maxVelocity: 1.4 // default is 5
-
-
-//Weapon Stuff for shooting whatever
-
-engineOffset: 10.5
-targetAir: true
-
-weapon: {
-    //to find weapon sprite
-  name: iron-throw
-  //shoot barrel y offset this changes the position where the bullet comes out from y pos
-  length: 0
-  //shoot barrel x offset default is 4 //this also changes the value of x sprite position
-  width: 10
-  //reload time in frame
-  reload: 60
-  //visual weapon knockback. default is 1.5
-  recoil: 4
-  //amount of shoots per fire
-  shoots: 1
-  //for shooting in one weapon then another instead of both at the same time
-  alternate: true
-  targetDistance: 60
-  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
-
-
-  // the start crhome wrath example was lightning
-  bullet: {
 
 type: BasicBulletType
+name: Iron Splasher
 lifetime: 1000 //default null
 
 //Moove Area
@@ -82,7 +36,7 @@ collides: true //if it can collides
 
 keepVelocity: true //Whether velocity is inherited from the shooter.
                    //false if it is. true if bullet mantains it velocity
-fragVelocityMin: 0.2 //default 0.2
+fragVelocityMin:0.2 //default 0.2
 fragVelocityMax: 1 //default1
 
 fragBullets: 4 //Number of frag bullets created. //default 9
@@ -108,12 +62,3 @@ backColor: bulletYellowBack // Color of back sprite.
 bulletSprite: underground-adventure-iron-circle // Mapping sprite used to make the shape of the bullet.
 // <mod-name>-<sprite-name>
 //end basciBulletType
-}
-
-}
-
-
-  //sprites:   (the sprites must be on srpites folder and contains the name of this unity)
-    //<name>
-    //<name>-leg
-    //<name>-base
