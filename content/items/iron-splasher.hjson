@@ -1,6 +1,6 @@
 
 
-type: BasicBulletType
+type: basicBulletType
 lifetime: 1000 //default null
 
 //Moove Area
