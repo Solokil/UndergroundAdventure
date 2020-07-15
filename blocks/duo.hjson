@@ -1,0 +1,30 @@
+//use a custom ogg sound for shooting
+shootSound: swings
+
+//define ammo, which is done by assigning a bullet type per item
+ammo: {
+  //re-define old types of ammo
+  copper: standardCopper
+  graphite: standardDense
+  pyratite: standardIncendiary
+  silicon: standardHoming
+  
+  //define a custom type with different properties
+  iron: {
+    //move 5 world units per frame (very fast)
+    speed: 5.0
+    damage: 81
+    //2x reload time, so 0.5x shoot speed
+    reloadMultiplier: 2
+    //visual size - does not affect hitbox
+    bulletWidth: 6
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    //1 bullets per iron item
+    ammoMultiplier: 1
+    //visual bullet front and back
+    backColor: ffffff
+    frontColor: ffffff
+  }
+}

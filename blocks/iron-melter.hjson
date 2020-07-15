@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Iron Melter"
+description: "Melts iron down for use in iron thigs dude, do you really read this?."
+liquidCapacity: 120
+outputLiquid: {
+  liquid: molten-iron
+  amount: 10
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 12
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  item: iron
+}
+requirements: [
+  lead/130
+  copper/90
+  iron/200
+]
+category: crafting
+research: iron-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
