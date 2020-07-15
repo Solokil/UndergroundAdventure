@@ -26,5 +26,5 @@ weapon: {
   targetDistance: 30
   //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
   // the start crhome wrath example was lightning
-  bullet: standardHomin
+  bullet: standardHoming
 }

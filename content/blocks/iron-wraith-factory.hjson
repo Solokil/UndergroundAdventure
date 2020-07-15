@@ -1,7 +1,7 @@
 name: Chrome Wraith Factory
 description: A very heavy wrath fighter. Easy and simple to make, and remarke me saying again: VERY HEAVY!
 type: UnitFactory
-unitType: iron-wraith-factory
+unitType: iron-wraith
 size: 2
 produceTime: 600
 consumes: {
