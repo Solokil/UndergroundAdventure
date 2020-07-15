@@ -2,7 +2,6 @@ name: Chrome Wraith Factory
 description: A very slow wrath fighter. Easy and simple to make, and remarke me saying again: VERY SLOW!
 type: UnitFactory
 unitType: iron-wraith
-health: 250
 size: 2
 produceTime: 600
 maxActiveUnits: 5
