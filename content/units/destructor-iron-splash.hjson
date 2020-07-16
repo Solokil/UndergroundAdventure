@@ -73,22 +73,22 @@ collidesTeam: false
 collidesAir: true
 collides: true
     keepVelocity: true
-    fragVelocityMin: 0.2
-    fragVelocityMax: 1
-    fragBullets: 5
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 9
     fragBullet: {
         type: LiquidBulletType
         liquid: molten-iron
-        lifetime: 600
-        speed: 1
+        lifetime: 900
+        speed: 0.3
         keepVelocity: true
         fragVelocityMin: 0.2
         fragVelocityMax: 1
-        fragBullets: 4
+        fragBullets: 2
         fragBullet: {
             type: LiquidBulletType
             liquid: molten-iron
-            lifetime: 600
+            lifetime: 300
             speed: 1
         }
         }
