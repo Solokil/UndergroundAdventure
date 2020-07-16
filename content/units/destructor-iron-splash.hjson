@@ -33,7 +33,7 @@ weapon: {
   //shoot barrel x offset default is 4 //this also changes the value of x sprite position
   width: 10
   //reload time in frame
-  reload: 60
+  reload: 50
   //visual weapon knockback. default is 1.5
   recoil: 4
   //amount of shoots per fire
