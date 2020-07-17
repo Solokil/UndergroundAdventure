@@ -13,7 +13,7 @@ loadout: advancedShard
 requirements: [
   {
     type: ZoneWave
-    zone: undergroundEnter
+    zone: underground-enter
     wave: 15
   }
   {
