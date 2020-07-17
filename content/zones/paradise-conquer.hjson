@@ -24,10 +24,10 @@ requirements: [
     block: example-mod-silver-turret
   }
 ]
-configureObjective: [ 
+configureObjective: {
    type: Launched
    zone: paradise-conquer
-]
+}
 
 resources: [
   copper
