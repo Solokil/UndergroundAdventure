@@ -40,6 +40,6 @@ resources: [
   scrap
   titanium
   thorium
-  golden-sand-exemple-mod
-  silver-exemple-mod
+  exemple-mod-golden-sand
+  exemple-mod-silver
 ]
