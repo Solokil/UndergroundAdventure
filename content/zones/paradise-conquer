@@ -22,7 +22,7 @@ requirements: [
   }  
   {
     type: Unlock
-    block: silver-turret
+    block: exemple-mod-silver-turret
   }
 ]
 configureObjective:
