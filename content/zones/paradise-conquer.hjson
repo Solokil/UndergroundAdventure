@@ -24,10 +24,9 @@ requirements: [
     block: example-mod-silver-turret
   }
 ]
-configureObjective:
-[ 
-type: Launched
-zone: paradise-conquer
+configureObjective: [ 
+   type: Launched
+   zone: paradise-conquer
 ]
 
 resources: [
