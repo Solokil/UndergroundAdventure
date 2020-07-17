@@ -1,18 +1,17 @@
 name: Paradise Conquer
-description: Needs exemplar mod to play this level... Conquer this outpost and claim a great amount of Items.. But don't think it will be easy.
+description: Needs exemple mod to play this level... Conquer this outpost and claim a great amount of Items.. But don't think it will be easy.
 startingItems:
 [
   copper/1000
   lead/2000
   thorium/500
-  metaglass/200
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
 loadout: advancedShard
 requirements: [
   {
-    type: zoneWave
+    type: ZoneWave
     zone: underground-enter
     wave: 15
   }
