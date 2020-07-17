@@ -10,8 +10,6 @@ startingItems:
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
 loadout: advancedShard
-conditionWave: 15
-launchPeriod: 10
 requirements: [
   {
     type: ZoneWave
@@ -27,6 +25,11 @@ requirements: [
     block: silver-turret
   }
 ]
+configureObjective:
+[ 
+type:Launched
+]
+
 resources: [
   copper
   // my first mineral
