@@ -21,7 +21,7 @@ requirements: [
   }  
   {
     type: Unlock
-    block: exemple-mod-silver-turret
+    block: example-mod-silver-turret
   }
 ]
 configureObjective:
@@ -40,6 +40,6 @@ resources: [
   scrap
   titanium
   thorium
-  exemple-mod-golden-sand
-  exemple-mod-silver
+  example-mod-golden-sand
+  example-mod-silver
 ]
