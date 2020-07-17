@@ -1,0 +1,42 @@
+name: Paradise Conquer
+description: Needs exemplar mod to play this level... Conquer this outpost and claim a great amount of Items.. But don't think it will be easy.
+startingItems:
+[
+  copper/1000
+  lead/2000
+  thorium/500
+  metaglass/200
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
+loadout: advancedShard
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: undergroundEnter
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: sniper-iron-turret
+  }  
+  {
+    type: Unlock
+    block: silver-turret
+  }
+]
+resources: [
+  copper
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  golden-sand-exemple-mod
+  silver-exemple-mod
+]
