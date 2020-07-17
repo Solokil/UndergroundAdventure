@@ -12,7 +12,7 @@ startingItems:
 loadout: advancedShard
 requirements: [
   {
-    type: ZoneWave
+    type: zoneWave
     zone: underground-enter
     wave: 15
   }
@@ -27,7 +27,8 @@ requirements: [
 ]
 configureObjective:
 [ 
-type:Launched
+type: Launched
+zone: paradise-conquer
 ]
 
 resources: [
