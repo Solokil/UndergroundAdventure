@@ -1,0 +1,55 @@
+type: hoverUnit
+name: Fiorite Fighter
+description: Made from fiorite, it can be very noise.
+
+//for units pussh and space pass
+//hitsize // default = 7
+//for hitbulletsize
+//hitsizeTile // default = 4
+
+flying: true
+health: 120
+
+
+//Moove Area
+speed: 0.45 //default is 0.4
+rotatespeed: 0.21 //default is 0.2
+range: 250 //
+baseRotateSpeed: 0.015 //default is 0.1
+mass: 8 //default is 1
+maxVelocity: 4 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
+engineOffset: 6.0
+targetAir: true
+
+weapon: {
+    //to find weapon sprite
+  name: fiorite-blaster
+  //shoot barrel y offset
+  length: 1.5
+  //shoot barrel x offset default is 4
+  width: 4
+  //reload time in frame
+  reload: 5
+  //visual weapon knockback. default is 1.5
+  recoil: 0.5
+  //amount of shoots per fire
+  shoots: 4
+  //for shooting in one weapon then another instead of both at the same time
+  alternate: true
+  targetDistance: 30
+  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
+  // the start crhome wrath example was lightning
+  bullet: slagShot
+
+
+  //sprites:
+  //[
+    //<name>
+    //<name>-leg
+    //<name>-base
+  //]
+}

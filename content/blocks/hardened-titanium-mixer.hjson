@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "mix the structure from hardened iron with titanium to make hardened titanium"
+description: "Changes the structure of lead to seams like iron... not the true Iron but it will work just fine"
+outputItem: {
+  item: hardened-titanium
+  amount: 1
+}
+size: 3
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  item: hardened-iron
+  item: titanium/2
+}
+requirements: [
+  lead/100
+  hardened-iron/5
+  titanium/20
+  plastenium/5
+]
+category: crafting
+research: iron-welder
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

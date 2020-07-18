@@ -1,0 +1,6 @@
+type: material
+name: Jiliorite
+description: A desrupted mineral class, jiliorite is basicly useles for itself, but you can use it very well as bullet components.
+hardness: 1
+cost: 1
+color: 438827 //67/136/39

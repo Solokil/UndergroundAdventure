@@ -1,0 +1,72 @@
+type: hoverUnit
+name: Jiliorite Fighter
+description: Made from jiliorite, it is very strong for it's size.
+
+//for units pussh and space pass
+//hitsize // default = 7
+//for hitbulletsize
+//hitsizeTile // default = 4
+
+flying: true
+health: 120
+
+
+//Moove Area
+speed: 0.3 //default is 0.4
+rotatespeed: 0.05 //default is 0.2
+range: 100 //
+baseRotateSpeed: 0.005 //default is 0.1
+mass: 12 //default is 1
+maxVelocity: 2.5 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
+engineOffset: 6.0
+targetAir: true
+
+weapon: {
+    //to find weapon sprite
+  name: jiliorite-blaster
+  //shoot barrel y offset
+  length: 1.5
+  //shoot barrel x offset default is 4
+  width: 4
+  //reload time in frame
+  reload: 5
+  //visual weapon knockback. default is 1.5
+  recoil: 0.5
+  //amount of shoots per fire
+  shoots: 4
+  //for shooting in one weapon then another instead of both at the same time
+  alternate: true
+  targetDistance: 30
+  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
+  // the start crhome wrath example was lightning
+  bullet: {
+  type: MissileBulletType
+  lifetime: 720
+  speed: 2
+  splashDamageRadious: 2
+  splashDamage: 20
+  frontColor: ffff00
+  backColor: 00ffff
+  homingPower: 1
+  homingRange: 20
+  fragBullets: 3
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: melted-iron
+    lifetime: 600
+    speed: 0.2
+    }
+  }
+
+
+  //sprites:
+  //[
+    //<name>
+    //<name>-leg
+    //<name>-base
+  //]
+}

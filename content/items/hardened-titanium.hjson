@@ -1,0 +1,6 @@
+type: material
+name: Hardened Titanium
+description: A very huge titanium, capable of creating itens with a very amount of life and damage.
+hardness: 3
+cost: 3
+color: 0000af

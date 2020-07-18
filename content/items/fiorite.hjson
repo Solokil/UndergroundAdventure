@@ -1,0 +1,6 @@
+type: material
+name: Fiorite
+description: A desrupted mineral class, Fiorite is the most comom of them.
+hardness: 1
+cost: 1
+color: d75f00 //215/90/0
