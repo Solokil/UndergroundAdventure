@@ -9,11 +9,11 @@ outputItem: {
 size: 2
 hasPower: true
 hasLiquids: true
-craftTime: 18
+craftTime: 15
 updateEffect: smeltsmoke
 consumes: {
   power: 0.7
-  liquid: molten-iron/10
+  liquid: molten-iron/3
 }
 requirements: [
   lead/540
