@@ -1,5 +1,5 @@
 name: Paradise Conquer
-description: Needs exemple mod to play this level... Conquer this outpost and claim a great amount of Items.. But don't think it will be easy.
+description:  here is a place filled with a large amount of resources and thermal energy, take care with the enemy base spotted in there.
 startingItems:
 [
   copper/1000
@@ -8,7 +8,7 @@ startingItems:
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
-loadout: advancedShard
+loadout: basicFoundation
 requirements: [
   {
     type: ZoneWave
