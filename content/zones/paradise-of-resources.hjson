@@ -24,10 +24,12 @@ requirements: [
     block: example-mod-silver-turret
   }
 ]
-configureObjective: {
-   type: ZoneWave
+launch period: 10 //use this only for maps that are ZoneWave Objective
+configureObjective: { // these four lines can be substituted by:
+     //condition wave:25
+   type: ZoneWave //"Launched" for attack maps
    zone: paradise-of-resources
-   wave: 30
+   wave: 25
 }
 
 resources: [
