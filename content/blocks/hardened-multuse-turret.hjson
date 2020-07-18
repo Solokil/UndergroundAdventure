@@ -7,10 +7,10 @@ reload: 5
 range: 400
 burstSpacing: 1
 ammoUseEffect: shellEjectSmall
-inaccuracy: 27.5
+inaccuracy: 4.5
 rotatespeed: 10
 targetAir: true
-maxAmmo: 120
+maxAmmo: 160
 ammo: {
   hardened-iron: {
     //move 3.4 world units per frame (very fast)
