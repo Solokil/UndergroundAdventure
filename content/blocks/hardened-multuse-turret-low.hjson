@@ -7,7 +7,7 @@ reload: 5
 range: 300
 burstSpacing: 1
 ammoUseEffect: shellEjectSmall
-inaccuracy: 27.5
+inaccuracy: 5
 rotatespeed: 10
 targetAir: true
 maxAmmo: 100
