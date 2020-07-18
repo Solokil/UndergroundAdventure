@@ -108,9 +108,9 @@ ammo: {
   }
 }
 requirements: [
-  iron/115
+  copper/115
   lead/50
-  hardened-iron/3
+  hardened-iron/20
 ]
 category: turret
 research: sniper-iron-turret
