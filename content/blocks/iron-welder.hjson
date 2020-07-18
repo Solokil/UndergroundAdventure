@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Iron Welder"
+description: "Welder melted Iron to fabric new powerful items and blocks"
+liquidCapacity: 180
+outputLiquid: {
+  item: hardened-iron
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 18
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  liquid: molten-iron/15
+}
+requirements: [
+  lead/540
+  copper/600
+  iron/780
+]
+category: crafting
+research: iron-melter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

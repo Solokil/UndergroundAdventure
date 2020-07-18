@@ -13,7 +13,7 @@ requirements: [
   {
     type: ZoneWave
     zone: underground-enter
-    wave: 30
+    wave: 15
   }
   {
     type: Unlock
@@ -25,8 +25,9 @@ requirements: [
   }
 ]
 configureObjective: {
-   type: Launched
-   zone: paradise-conquer
+   type: ZoneWave
+   zone: paradise-of-resources
+   wave: 30
 }
 
 resources: [

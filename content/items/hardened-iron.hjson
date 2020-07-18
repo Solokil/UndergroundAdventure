@@ -1,0 +1,6 @@
+type: material
+name: Hardened Iron
+description: A masterpie of a iron made from a great mirsmith.
+hardness: 3
+cost: 3
+color: e9e9e9 //233/233/233
