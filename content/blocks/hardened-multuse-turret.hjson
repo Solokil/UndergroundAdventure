@@ -14,7 +14,7 @@ ammo: {
   hardened-iron: {
     //move 3.4 world units per frame (very fast)
     speed: 3.5
-    damage: 25
+    damage: 250
     bulletWidth: 8
     bulletHeight: 8
     shootEffect: shootSmall
@@ -24,7 +24,7 @@ ammo: {
   thorium: {
     //move 4 world units per frame (very fast)
     speed: 4
-    damage: 30
+    damage: 300
     bulletWidth: 9
     bulletHeight: 9
     shootEffect: shootSmall
@@ -34,7 +34,7 @@ ammo: {
   titanium: {
     //move 4 world units per frame (very fast)
     speed: 4
-    damage: 25
+    damage: 250
     bulletWidth: 8
     bulletHeight: 8
     shootEffect: shootSmall
@@ -44,7 +44,7 @@ ammo: {
   iron: {
     //move 6 world units per frame (very fast)
     speed: 6
-    damage: 18
+    damage: 180
     bulletWidth: 7
     bulletHeight: 7
     shootEffect: shootSmall
@@ -54,7 +54,7 @@ ammo: {
   example-mod-silver: {
     //move 6 world units per frame (very fast)
     speed: 6
-    damage: 17
+    damage: 170
     bulletWidth: 6.5
     bulletHeight: 6.5
     shootEffect: shootSmall
@@ -63,7 +63,7 @@ ammo: {
   }
   copper: {
   speed: 3
-  damage: 50
+  damage: 500
   bulletWidth: 6
   bulletHeight: 6
   shootEffect: shootSmall
@@ -72,7 +72,7 @@ ammo: {
   }
   lead: {
   speed: 4.5
-  damage: 70
+  damage: 700
   bulletWidth: 7
   bulletHeight: 7
   shootEffect: shootSmall
@@ -81,7 +81,7 @@ ammo: {
   }
   scrap: {
   speed: 1.8
-  damage: 25
+  damage: 250
   bulletWidth: 5
   bulletHeight: 5
   shootEffect: shootSmall
@@ -90,7 +90,7 @@ ammo: {
   }
   sand: {
   speed: 1.8
-  damage: 20
+  damage: 200
   bulletWidth: 5
   bulletHeight: 5
   shootEffect: shootSmall
@@ -99,9 +99,9 @@ ammo: {
   }
 }
 requirements: [
-  iron/1250
+  copper/2000
   lead/600
-  hardened-iron/50
+  hardened-iron/20
 ]
 category: turret
 research: sniper-iron-turret
