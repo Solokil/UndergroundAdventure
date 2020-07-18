@@ -13,7 +13,7 @@ craftTime: 30
 updateEffect: smeltsmoke
 consumes: {
   item: hardened-iron
-  item: titanium/2
+  item: titanium
 }
 requirements: [
   lead/100
