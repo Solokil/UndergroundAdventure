@@ -27,7 +27,8 @@ requirements: [
 launchPeriod: 10 //use this only for maps that are ZoneWave Objective
 configureObjective: { // these four lines can be substituted by:
      //condition wave:25
-   type: ZoneWave //"Launched" for attack maps
+   type: ZoneWave 
+// "Launched" for attack maps
    zone: paradise-of-resources
    wave: 25
 }
