@@ -108,9 +108,10 @@ ammo: {
   }
 }
 requirements: [
-  copper/2000
+  copper/1000
   lead/600
   hardened-iron/140
+  thorium/40
 ]
 category: turret
 research: sniper-iron-turret
