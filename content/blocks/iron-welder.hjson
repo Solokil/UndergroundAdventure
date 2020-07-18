@@ -13,7 +13,7 @@ craftTime: 18
 updateEffect: smeltsmoke
 consumes: {
   power: 0.7
-  liquid: molten-iron/15
+  liquid: molten-iron/10
 }
 requirements: [
   lead/540
