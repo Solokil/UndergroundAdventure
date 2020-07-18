@@ -14,12 +14,12 @@ ammo: {
   hardened-iron: {
     //move 3.4 world units per frame (very fast)
     speed: 3.5
-    damage: 250
+    damage: 350
     bulletWidth: 8
     bulletHeight: 8
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 25
+    ammoMultiplier: 40
     lifetime:858
   }
   thorium: {
