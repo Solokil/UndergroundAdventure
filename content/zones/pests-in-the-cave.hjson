@@ -16,7 +16,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: fake-multuse-turret-low
+    block: hardened-multuse-turret-low
   }  
 ]
 launchPeriod: 10 //use this only for maps that are ZoneWave Objective
