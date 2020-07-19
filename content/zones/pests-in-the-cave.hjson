@@ -29,7 +29,8 @@ configureObjective: { // these four lines can be substituted by:
 }
 
 resources: [
-  copper // if two bars are at the minery, it menas that the map does not have it
+  copper
+  // if two bars are at the minery, it menas that the map does not have it
   // my first mineral
   // iron
   lead
