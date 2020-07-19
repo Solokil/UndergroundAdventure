@@ -33,7 +33,8 @@ weapon: {
   //shoot barrel x offset default is 4
   width: 4
   //reload time in frame
-  reload: 5
+  reload: 30
+  damage: 10
   //visual weapon knockback. default is 1.5
   recoil: 0.5
   //amount of shoots per fire
@@ -45,7 +46,7 @@ weapon: {
   // the start crhome wrath example was lightning
   bullet: {
   type: MissileBulletType
-  lifetime: 720
+  lifetime: 300
   speed: 2
   splashDamageRadious: 2
   splashDamage: 20
