@@ -1,0 +1,45 @@
+name: Pests in the cave
+description: A cave full of enemy flying pests, recomend to use mass driver to transport resourses.
+startingItems:
+[
+  copper/200
+  lead/200
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus
+loadout: basicNucleus
+requirements: [
+  {
+    type: ZoneWave
+    zone: underground-enter
+    wave: 35
+  }
+  {
+    type: Unlock
+    block: fake-multuse-turret-low
+  }  
+]
+launchPeriod: 10 //use this only for maps that are ZoneWave Objective
+configureObjective: { // these four lines can be substituted by:
+     //condition wave:25
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: paradise-of-resources
+   wave: 50
+}
+
+resources: [
+  copper // if two bars are at the minery, it menas that the map does not have it
+  // my first mineral
+  // iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  example-mod-gold-powder
+  example-mod-silver
+  fiorite
+  jiorite
+]
