@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: "mix the structure from hardened iron with titanium to make hardened titanium"
-description: "Changes the structure of lead to seams like iron... not the true Iron but it will work just fine"
+name: Hardened titanium mixer
+description: "mix the structure from hardened iron with titanium to make hardened titanium"
 outputItem: {
   item: hardened-titanium
   amount: 1
