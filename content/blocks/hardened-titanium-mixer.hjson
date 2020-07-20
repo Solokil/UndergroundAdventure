@@ -12,7 +12,7 @@ hasItems: true
 craftTime: 30
 updateEffect: smeltsmoke
 consumes: { 
-  hardened-iron1
+  hardened-iron/1
   titanium/2
 }
 requirements: [
