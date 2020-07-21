@@ -1,0 +1,23 @@
+name: Mini Thorium Drill
+description: A mini drill made with thorium, capable of a large amount of resources and very fast. but that's not cheap!
+type: Drill
+size: 1
+tier: 5
+drillTime: 90
+liquidBoostIntensity: 1.3
+consumes: {
+  liquid: {
+    liquid: lemon-juice
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  thorium/150
+  titanium/500
+  jiliorite/1000
+  fiorite/5000
+]
+category: production
+research: mini-titanium-drill
