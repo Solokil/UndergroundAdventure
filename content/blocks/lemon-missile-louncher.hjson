@@ -4,7 +4,7 @@ description: Not the best, but a great basic defense for non copper resourses ma
 health: 750
 size: 2
 reload: 20
-range: 115
+range: 145
 maxAmmo: 60 //default is 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 10
