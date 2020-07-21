@@ -1,0 +1,10 @@
+name: Fiorite Wall
+description: A wall made of fiorite. it is very resistent as averything made of fiorite
+type: Wall
+health: 2000
+size: 1
+requirements: [
+  fiorite/40
+]
+category: defense
+research: large-iron-wall
