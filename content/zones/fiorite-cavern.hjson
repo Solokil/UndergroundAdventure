@@ -1,0 +1,50 @@
+name: Fiorite Cavern
+description: Straight passanges, and places with a large amount of fiorite.
+startingItems:
+[
+  fiorite/2000
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus
+loadout: basicNucleus
+requirements: [
+  {
+    type: ZoneWave
+    zone: pests-in-the-cave
+    wave: 100
+  }
+  {
+    type: Unlock
+    block: fiorite-turret
+  }    
+  {
+    type: Unlock
+    block: fiorite-drill
+  }  
+
+]
+   conditionWave: 25
+launchPeriod: 10 //use this only for maps that are ZoneWave Objective
+configureObjective: { // these four lines can be substituted by:
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: paradise-of-resources
+   wave: 50
+}
+
+resources: [
+  copper
+  // if two bars are at the minery, it means that the map does not have it
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  // example-mod-gold-powder
+  example-mod-silver
+  fiorite
+  jiliorite
+]
