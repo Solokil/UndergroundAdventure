@@ -15,7 +15,7 @@ consumes: {
   }
 }
 category: units
-research: draug-factory
+research: fiorite-draug-miner-drone
 requirements: [
   fiorite/150
   jiliorite/35
