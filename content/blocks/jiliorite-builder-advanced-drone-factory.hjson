@@ -1,0 +1,22 @@
+name: Jiliorite Builder Advanced Drone Factory
+description: An advanced builder drone made from jiliorite.
+type: UnitFactory
+unitType: jiliorite-drone-drone
+health: 1200
+size: 2
+produceTime: 1500
+maxSpawn: 1
+consumes: {
+  items: {
+    items: [
+      jiliorite/50
+      fiorite/100
+    ]
+  }
+}
+category: units
+research: draug-factory
+requirements: [
+  fiorite/150
+  jiliorite/35
+]
