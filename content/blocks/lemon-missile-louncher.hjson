@@ -57,6 +57,7 @@ ammo: {
 }
 requirements: [
   jiliorite/200
+  fiorite/30
 ]
 category: turret
-research: duo
+research: fiorite-turret
