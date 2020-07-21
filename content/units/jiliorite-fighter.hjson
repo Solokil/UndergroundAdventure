@@ -47,6 +47,7 @@ weapon: {
   bullet: {
   type: MissileBulletType
   lifetime: 300
+  damage: 2
   speed: 2
   splashDamageRadious: 2
   splashDamage: 20
