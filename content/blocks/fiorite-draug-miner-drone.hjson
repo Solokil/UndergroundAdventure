@@ -1,23 +1,21 @@
-name: Iron Wraith Factory
+name: Fiorite Draug Miner Drone
 description: A very slow wrath fighter. Easy and simple to make, and remarke me saying again: VERY SLOW!
 type: UnitFactory
-unitType: iron-wraith
-health: 250
+unitType: fiorite-miner-drone
+health: 500
 size: 2
-produceTime: 600
-maxSpawn: 5
+produceTime: 1200
+maxSpawn: 2
 consumes: {
-  power: 0.5
   items: {
     items: [
-      iron/10
+      fiorite/25
     ]
   }
 }
 category: units
 research: draug-factory
 requirements: [
-  iron/70
-  copper/20
-  lead/15
+  fiorite/150
+  jiliorite/35
 ]

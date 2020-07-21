@@ -1,0 +1,38 @@
+type: minerDrone
+name: Fiorite Builder Drone
+description: A great drone to mine diferent resources. It has a large amount of life for it's size.
+
+//for units pussh and space pass
+//hitsize // default = 7
+//for hitbulletsize
+//hitsizeTile // default = 4
+
+flying: true
+health: 500
+
+mineSpeed: 3
+drillPower: -1
+toMine:[
+fiorite
+jiliorite
+iron
+]
+weapon: {
+name: null
+bullet: standardCopper
+
+}
+
+//Moove Area
+speed: 2 //default is 0.4
+rotatespeed: 0.05 //default is 0.2
+range: 80 //
+baseRotateSpeed: 0.015 //default is 0.1
+mass: 1 //default is 1
+maxVelocity: 1.2 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
+engineOffset: 4.0
+targetAir: true

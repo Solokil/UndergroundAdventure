@@ -4,6 +4,13 @@ type: Drill
 size: 1
 tier: 1
 drillTime: 180
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
 requirements: [
   fiorite/100
 ]

@@ -11,8 +11,10 @@ hasLiquids: false
 hasItems: true
 craftTime: 30
 updateEffect: smeltsmoke
-consumes: { 
-items:{
+consumes: {
+
+items:
+{
   items:[
     hardened-iron/1
     titanium/2
