@@ -4,10 +4,12 @@ type: Drill
 size: 1
 tier: 1
 drillTime: 180
+liquidBoostIntensity: 3
 consumes: {
   liquid: {
-    liquid: water
+    liquid: lemon-juice
     amount: 0.1
+	optional: true
     booster: true
   }
 }
