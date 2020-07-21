@@ -1,0 +1,21 @@
+name: Hardened Mini Titanium Drill
+description: A mini drill made with hardened titanium. Don' think will be the last drill.
+type: Drill
+size: 1
+tier: 6
+drillTime: 80
+liquidBoostIntensity: 1.25
+consumes: {
+  liquid: {
+    liquid: lemon-juice
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  hardened-titanium/150
+  titanium/5000
+]
+category: production
+research: mini-titanium-drill
