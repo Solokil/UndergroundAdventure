@@ -1,0 +1,22 @@
+name: Mini Titanium Drill
+description: Made with a large amount of fiorite, it can mine very fast besides of it's size, take care cause it can not mine coal and others tier 2 resources.
+type: Drill
+size: 1
+tier: 4
+drillTime: 100
+liquidBoostIntensity: 1.5
+consumes: {
+  liquid: {
+    liquid: lemon-juice
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  titanium/100
+  jiliorite/200
+  fiorite/1000
+]
+category: production
+research: jiliorite-drill
