@@ -24,7 +24,7 @@ launchPeriod: 25 //use this only for maps that are ZoneWave Objective
 configureObjective: { // these four lines can be substituted by:
    type: ZoneWave 
 // "Launched" for attack maps
-   zone: paradise-of-resources
+   zone: pests-in-the-cave
    wave: 50
 }
 
