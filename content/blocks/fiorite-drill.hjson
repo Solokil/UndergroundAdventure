@@ -1,5 +1,5 @@
 name: Fiorite Drill
-description: Made with a large amount of fiorite, it can mine very fast besides of it's size.
+description: Made with a large amount of fiorite, it can mine very fast besides of it's size, take care cause it can not mine coal and others tier 2 resources.
 type: Drill
 size: 1
 tier: 1
