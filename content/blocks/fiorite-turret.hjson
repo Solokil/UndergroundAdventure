@@ -1,0 +1,51 @@
+type: DoubleTurret
+name: Fiorite Turret
+description: Not the best, but a great basic defense for non copper resourses maps.
+health: 350
+size: 1
+reload: 10
+range: 115
+maxAmmo: 40 //default is 30
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 12
+ammo: {
+	fiorite: {
+    speed: 3.5
+    damage: 7
+    bulletWidth: 10
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 8
+  }
+ 
+	jiliorite:{
+    speed: 4
+    damage: 10
+    bulletWidth: 11
+    bulletHeight: 11
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 6
+  }
+
+	copper: standardCopper  
+	silicon: standardHoming
+
+
+  example-mod-silver: {
+    speed: 3
+    damage: 3
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  fiorite/130
+]
+category: turret
+research: duo
