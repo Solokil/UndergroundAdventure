@@ -8,12 +8,12 @@ description: The name say for it self. Hs lower life than Iron Splasher, but mor
 //hitsizeTile // default = 8
 
 flying: true
-health: 2500
+health: 1500
 
-
+shootCone: 30
 //Moove Area
 speed: 0.08 //default is 0.4
-rotatespeed: 0.01 //default is 0.2
+rotatespeed: 0.09 //default is 0.2
 range: 100 //
 baseRotateSpeed: 0.005 //default is 0.1
 mass: 9 //default is 1
@@ -33,7 +33,7 @@ weapon: {
   //shoot barrel x offset default is 4 //this also changes the value of x sprite position
   width: 10
   //reload time in frame
-  reload: 6
+  reload: 15
   //visual weapon knockback. default is 1.5
   recoil: 1
   //amount of shoots per fire
@@ -50,7 +50,7 @@ type: BasicBulletType
 lifetime: 240
 //Moove Area
 speed: 0.9
-damage: 5
+damage: 7
 hitSize: 4 
 drawSize: 40
 drag: 0
@@ -75,7 +75,7 @@ collides: true
     keepVelocity: true
     fragVelocityMin: 0.01
     fragVelocityMax: 0.05
-    fragBullets: 2
+    fragBullets: 5
     fragBullet: {
         type: LiquidBulletType
         liquid: water
