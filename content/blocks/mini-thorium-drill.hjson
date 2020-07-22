@@ -14,10 +14,10 @@ consumes: {
   }
 }
 requirements: [
-  thorium/150
-  titanium/500
-  jiliorite/1000
-  fiorite/5000
+  thorium/20
+  titanium/50
+  jiliorite/100
+  fiorite/300
 ]
 category: production
 research: mini-titanium-drill
