@@ -13,10 +13,10 @@ health: 1500
 shootCone: 30
 //Moove Area
 speed: 0.08 //default is 0.4
-rotatespeed: 0.09 //default is 0.2
+rotatespeed: 0.4 //default is 0.2
 range: 100 //
 baseRotateSpeed: 0.005 //default is 0.1
-mass: 9 //default is 1
+mass: 13 //default is 1
 maxVelocity: 1 // default is 5
 
 
@@ -50,7 +50,7 @@ type: BasicBulletType
 lifetime: 240
 //Moove Area
 speed: 0.9
-damage: 7
+damage: 20
 hitSize: 4 
 drawSize: 40
 drag: 0
