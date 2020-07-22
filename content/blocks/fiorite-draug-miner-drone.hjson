@@ -6,7 +6,7 @@ health: 500
 size: 2
 produceTime: 1200
 maxSpawn: 2
-has power: false
+hasPower: false
 consumes: {
   items: {
     items: [
