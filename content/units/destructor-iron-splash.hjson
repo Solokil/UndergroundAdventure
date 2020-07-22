@@ -1,6 +1,6 @@
 type: flyingUnit
 name: Destructor Iron Splash
-description: Very slow and easy handable.
+description: A flying unit that spread moltem Iron everywhere.
 
 //for units pussh and space pass
 //hitsize // default = 64
