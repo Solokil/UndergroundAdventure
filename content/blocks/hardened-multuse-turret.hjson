@@ -21,7 +21,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 40
-    lifetime:858
+    lifetime:200
   }
   thorium: {
     //move 4 world units per frame (very fast)
@@ -32,7 +32,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 12
-    lifetime:750
+    lifetime:190
   }
   titanium: {
     //move 4 world units per frame (very fast)
@@ -43,7 +43,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 15
-    lifetime:750
+    lifetime:190
   }
   iron: {
     //move 6 world units per frame (very fast)
@@ -54,7 +54,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 20
-    lifetime:500
+    lifetime:160
   }
   example-mod-silver: {
     //move 6 world units per frame (very fast)
@@ -65,7 +65,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 23
-    lifetime:500
+    lifetime:160
   }
   copper: {
   speed: 3
@@ -75,7 +75,7 @@ ammo: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 4
-    lifetime:1000
+    lifetime:220
   }
   lead: {
   speed: 4.5
@@ -85,7 +85,7 @@ ammo: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 5
-    lifetime:667
+    lifetime:190
   }
   scrap: {
   speed: 1.8
@@ -95,7 +95,7 @@ ammo: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 8
-    lifetime:1667
+    lifetime:600
   }
   sand: {
   speed: 1.8
@@ -105,7 +105,7 @@ ammo: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 10
-    lifetime:1667
+    lifetime:600
   }
 }
 requirements: [
