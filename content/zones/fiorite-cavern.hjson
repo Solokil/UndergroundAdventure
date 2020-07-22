@@ -23,7 +23,7 @@ requirements: [
   }  
 
 ]
-   conditionWave: 25
+   // conditionWave: 25 // for minimum launch wave
 launchPeriod: 10 //use this only for maps that are ZoneWave Objective
 configureObjective: { // these four lines can be substituted by:
    type: ZoneWave 
