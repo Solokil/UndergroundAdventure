@@ -14,8 +14,8 @@ consumes: {
   }
 }
 requirements: [
-  hardened-titanium/150
-  titanium/5000
+  hardened-titanium/15
+  titanium/250
 ]
 category: production
-research: mini-titanium-drill
+research: mini-thorium-drill
