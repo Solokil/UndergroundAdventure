@@ -8,7 +8,7 @@ description: A great drone to mine diferent resources. It has a large amount of 
 //hitsizeTile // default = 4
 
 flying: true
-health: 500
+health: 1500
 
 mineSpeed: 3
 drillPower: -1
