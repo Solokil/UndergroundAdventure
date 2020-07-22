@@ -14,9 +14,9 @@ consumes: {
   }
 }
 requirements: [
-  titanium/100
-  jiliorite/200
-  fiorite/1000
+  titanium/20
+  jiliorite/100
+  fiorite/120
 ]
 category: production
 research: jiliorite-drill
