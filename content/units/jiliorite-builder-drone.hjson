@@ -1,6 +1,6 @@
 type: builderDrone
 name: Jiliorite Builder Drone
-description: A great drone to mine diferent resources. It has a large amount of life for it's size.
+description: An advanced building drone, worth the patient to build it. It has a large amount of life for it's size.
 
 //for units pussh and space pass
 //hitsize // default = 7
@@ -8,8 +8,9 @@ description: A great drone to mine diferent resources. It has a large amount of 
 //hitsizeTile // default = 4
 
 flying: true
-health: 1500
+health: 2500
 
+builPower: 5
 mineSpeed: 3
 drillPower: -1
 weapon: {
