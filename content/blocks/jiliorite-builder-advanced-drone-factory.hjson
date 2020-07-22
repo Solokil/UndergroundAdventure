@@ -1,7 +1,7 @@
 name: Jiliorite Builder Advanced Drone Factory
 description: An advanced builder drone made from jiliorite.
 type: UnitFactory
-unitType: jiliorite-drone-drone
+unitType: jiliorite-builder-drone
 health: 1200
 size: 2
 produceTime: 1500
@@ -17,6 +17,6 @@ consumes: {
 category: units
 research: fiorite-draug-miner-drone
 requirements: [
-  fiorite/1500
-  jiliorite/350
+  fiorite/5500
+  jiliorite/1050
 ]
