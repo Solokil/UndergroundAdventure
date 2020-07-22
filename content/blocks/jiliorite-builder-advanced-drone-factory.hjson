@@ -5,6 +5,7 @@ unitType: jiliorite-builder-drone
 health: 1200
 size: 2
 produceTime: 1500
+hasPower: false
 maxSpawn: 1
 consumes: {
   items: {
