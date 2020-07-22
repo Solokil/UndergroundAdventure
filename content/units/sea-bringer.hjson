@@ -1,0 +1,105 @@
+type: flyingUnit
+name: Sea Bringer
+description: The name say for it self. Hs lower life than Iron Splasher, but more damage!
+
+//for units pussh and space pass
+//hitsize // default = 64
+//for hitbulletsize
+//hitsizeTile // default = 8
+
+flying: true
+health: 2500
+
+
+//Moove Area
+speed: 0.08 //default is 0.4
+rotatespeed: 0.01 //default is 0.2
+range: 100 //
+baseRotateSpeed: 0.005 //default is 0.1
+mass: 9 //default is 1
+maxVelocity: 1 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
+engineOffset: 10.5
+targetAir: true
+
+weapon: {
+    //to find weapon sprite
+  name: water-throw
+  //shoot barrel y offset this changes the position where the bullet comes out from y pos
+  length: 0
+  //shoot barrel x offset default is 4 //this also changes the value of x sprite position
+  width: 10
+  //reload time in frame
+  reload: 6
+  //visual weapon knockback. default is 1.5
+  recoil: 1
+  //amount of shoots per fire
+  shoots: 4
+  //for shooting in one weapon then another instead of both at the same time
+  alternate: true
+  targetDistance: 60
+  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
+
+
+  // the start crhome wrath example was lightning
+  bullet: {
+type: BasicBulletType
+lifetime: 240
+//Moove Area
+speed: 0.9
+damage: 5
+hitSize: 4 
+drawSize: 40
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 2 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.5
+hitTile: true
+status: melting 
+statusDuration: 300
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.01
+    fragVelocityMax: 0.05
+    fragBullets: 2
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: water
+        lifetime: 3000
+        speed: 0.3
+        keepVelocity: true
+        }
+splashDamage: 0
+splashDamageRadius: -1
+incendAmount: 0
+incendSpread: 8
+incendChance: 3
+bulletWidth: 6
+bulletHeight: 6
+bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: 1b7ced // Color of front sprite.
+backColor: 1b7ced // Color of back sprite.
+bulletSprite: underground-adventure-iron-circle
+}
+
+}
+
+
+  //sprites:   (the sprites must be on srpites folder and contains the name of this unity)
+    //<name>
+    //<name>-leg
+    //<name>-base
