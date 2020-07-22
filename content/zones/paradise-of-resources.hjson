@@ -25,7 +25,7 @@ requirements: [
   }
 ]
 launchPeriod: 10 //use this only for maps that are ZoneWave Objective
-   conditionWave: 25
+   conditionWave: 15
 configureObjective: {
    type: ZoneWave 
 // "Launched" for attack maps
