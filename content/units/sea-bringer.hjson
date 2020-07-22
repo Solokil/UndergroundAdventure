@@ -50,7 +50,7 @@ type: BasicBulletType
 lifetime: 240
 //Moove Area
 speed: 0.9
-damage: 20
+damage: 12
 hitSize: 4 
 drawSize: 40
 drag: 0
@@ -82,9 +82,19 @@ collides: true
         lifetime: 3000
         speed: 0.3
         keepVelocity: true
+    fragVelocityMin: 0.01
+    fragVelocityMax: 0.05
+    fragBullets: 2
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: water
+        lifetime: 3000
+        speed: 0.3
+        keepVelocity: true
         }
-splashDamage: 0
-splashDamageRadius: -1
+        }
+splashDamage: 7
+splashDamageRadius: 1
 incendAmount: 0
 incendSpread: 8
 incendChance: 3
