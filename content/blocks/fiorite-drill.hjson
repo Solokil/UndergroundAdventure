@@ -3,6 +3,7 @@ description: Made with a large amount of fiorite, it can mine very fast besides 
 type: Drill
 size: 1
 tier: 1
+buildCostMultiplier: 0.1
 drillTime: 180
 liquidBoostIntensity: 3
 consumes: {
