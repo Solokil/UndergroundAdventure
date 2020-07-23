@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Disrupted Minerals Extractor
+description: A extractor that can find basic disrupted minerals from the underground, works very fast and don't speend energy!
+size: 2
+hasPower: false
+hasItems: true
+craftTime: 5
+craftEffect: smeltsmoke
+consumes: {
+}
+outputItem: {
+  items: {
+  item: fiorite
+  amount: 1
+  item: jiliorite
+  amount: 1
+  
+  }
+}
+requirements: [
+  copper/100
+]
+category: production
+research: jiliorite-drill
+idleSound: respawning
+idleSoundVolume: 0.5
