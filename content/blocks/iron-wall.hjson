@@ -1,6 +1,6 @@
 name: Iron Wall
 description: A wall made of iron. not good but not worth either.
-buildCostMultiplier: 0.6
+buildCostMultiplier: 0.75
 type: Wall
 health: 2500
 size: 2
