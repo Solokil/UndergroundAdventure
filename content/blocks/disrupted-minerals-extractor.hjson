@@ -8,7 +8,8 @@ craftTime: 5
 craftEffect: smeltsmoke
 consumes: {
 }
-outputItem: {
+outputItem: 
+  Items:{
   fiorite/1
   jiliorite/1
 }
