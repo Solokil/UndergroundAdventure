@@ -8,6 +8,7 @@ range: 145
 maxAmmo: 60 //default is 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 10
+buildCostMultiplier: 0.3
 rotatespeed: 12
 ammo: {
 	fiorite: {
