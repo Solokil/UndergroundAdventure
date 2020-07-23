@@ -5,6 +5,7 @@ health: 2430
 size: 3
 reload: 5
 range: 400
+buildCostMultiplier: 0.23
 burstSpacing: 1
 ammoUseEffect: shellEjectSmall
 inaccuracy: 4.5
