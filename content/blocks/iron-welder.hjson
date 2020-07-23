@@ -2,6 +2,7 @@ type: GenericCrafter
 name: "Iron Welder"
 description: "Welder melted Iron to fabric new powerful items and blocks"
 liquidCapacity: 180
+buildCostMultiplier: 0.15
 outputItem: {
   item: hardened-iron
   amount: 1
