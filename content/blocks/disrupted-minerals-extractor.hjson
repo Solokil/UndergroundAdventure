@@ -10,10 +10,8 @@ consumes: {
 }
 outputItem: {
   items: {
-  item: fiorite
-  amount: 1
-  item: jiliorite
-  amount: 1
+  fiorite/1
+  jiliorite/1
   
   }
 }
