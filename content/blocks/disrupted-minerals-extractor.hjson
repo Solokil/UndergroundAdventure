@@ -10,7 +10,7 @@ craftEffect: smeltsmoke
 consumes: {
   liquid:{
   liquid: lemon-juice
-  amount-0.1
+  amount: 0.1
   optional: true
   booster: true
   }
