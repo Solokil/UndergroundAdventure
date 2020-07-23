@@ -2,6 +2,7 @@ name: Jiliorite Drill
 description: Made with a large amount of jiliorite, it can mine very fast besides of it's size, and it can mine even titanium!
 type: Drill
 size: 1
+buildCostMultiplier: 0.05
 tier: 3
 drillTime: 155
 liquidBoostIntensity: 2.5
