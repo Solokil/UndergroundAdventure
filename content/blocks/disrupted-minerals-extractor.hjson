@@ -9,10 +9,12 @@ craftEffect: smeltsmoke
 consumes: {
 }
 outputItem: 
-   item: fiorite
-   amount: 1
-   item: jiliorite:
-   amount: 1
+{
+  items:[
+    fiorite/1
+    jiliorite/2
+    ]
+  }
 requirements: [
   copper/100
 ]
