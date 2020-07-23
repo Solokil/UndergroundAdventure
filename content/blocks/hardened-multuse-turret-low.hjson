@@ -6,6 +6,7 @@ size: 2
 reload: 5
 range: 300
 burstSpacing: 1
+buildCostMultiplier: 0.25
 ammoUseEffect: shellEjectSmall
 inaccuracy: 5
 rotatespeed: 10
