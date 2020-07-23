@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: Separator
 name: Disrupted Minerals Extractor
 description: A extractor that can find basic disrupted minerals from the underground, works very fast and don't speend energy!
 size: 2
@@ -8,10 +8,15 @@ craftTime: 5
 craftEffect: smeltsmoke
 consumes: {
 }
-outputItem: [
-    fiorite/1
-    jiliorite/1
-    ]
+
+results: {
+  items: [
+  fiorite/1
+  jiliorite/1
+  
+  ]
+
+}
   
 requirements: [
   copper/100
