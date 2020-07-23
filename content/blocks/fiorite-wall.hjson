@@ -1,5 +1,6 @@
 name: Fiorite Wall
-description: A wall made of fiorite. it is very resistent as averything made of fiorite
+description: A wall made of fiorite. it is very resistent as averything made of fiorite but spend a lot of resources...
+buildCostMultiplier: 0.05
 type: Wall
 health: 5000
 size: 2
