@@ -1,8 +1,9 @@
 name: Fiorite Draug Miner Drone
-description: A very slow wrath fighter. Easy and simple to make, and remarke me saying again: VERY SLOW!
+description: A simple drone that mines fiorite, jiliorite and iron.
 type: UnitFactory
 unitType: fiorite-miner-drone
 health: 500
+buildCostMultiplier: 0.3
 size: 2
 produceTime: 1200
 maxSpawn: 2
