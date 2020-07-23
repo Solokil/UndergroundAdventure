@@ -1,8 +1,9 @@
 type: ArtilleryTurret
 name: Sniper Iron Turret
-description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!
+description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
 health: 940
 size: 2
+buildCostMultiplier: 0.3
 reload: 25
 range: 350
 ammoUseEffect: shellEjectSmall
