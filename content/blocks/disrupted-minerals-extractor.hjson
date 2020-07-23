@@ -16,14 +16,10 @@ consumes: {
   }
 }
 
-results: {
-  items: [
+results:  [
   fiorite/1
   jiliorite/1
-  
   ]
-
-}
   
 requirements: [
   copper/100
