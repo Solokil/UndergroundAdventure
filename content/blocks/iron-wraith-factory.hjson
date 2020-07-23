@@ -2,6 +2,7 @@ name: Iron Wraith Factory
 description: A very slow wrath fighter. Easy and simple to make, and remarke me saying again: VERY SLOW!
 type: UnitFactory
 unitType: iron-wraith
+buildCostMultiplier: 0.5
 health: 250
 size: 2
 produceTime: 600
