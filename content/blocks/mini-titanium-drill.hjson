@@ -4,7 +4,8 @@ type: Drill
 size: 1
 tier: 4
 drillTime: 100
-liquidBoostIntensity: 1.5
+buildCostMultiplier: 0.05
+liquidBoostIntensity: 2
 consumes: {
   liquid: {
     liquid: lemon-juice
