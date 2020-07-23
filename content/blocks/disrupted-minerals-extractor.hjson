@@ -4,6 +4,7 @@ description: A extractor that can find basic disrupted minerals from the undergr
 size: 2
 hasPower: false
 hasItems: true
+hasLiquids: false
 craftTime: 5
 craftEffect: smeltsmoke
 consumes: {
