@@ -1,6 +1,7 @@
 name: Large Iron Wall
 description: Now this is a good wall!!!
 type: Wall
+buildCostMultiplier: 0.4
 health: 11250
 size: 3
 requirements: [
