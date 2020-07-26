@@ -56,7 +56,7 @@ collides: false
     keepVelocity: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
-    fragBullets: 25
+    fragBullets: 0 //001
     fragBullet: {
         type: LiquidBulletType
         liquid: lemon-juice
