@@ -28,9 +28,9 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 1
+lifetime: 2
 //Moove Area
-speed: 64
+speed: 32
 damage: 5
 hitSize: 4 
 drawSize: 256
