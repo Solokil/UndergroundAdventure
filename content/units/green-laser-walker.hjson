@@ -29,7 +29,7 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 4
+lifetime: 5
 //Moove Area
 speed: 8
 damage: 75
