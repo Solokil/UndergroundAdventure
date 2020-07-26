@@ -1,6 +1,6 @@
 
   type: groundUnit
-  name: Darkenic
+  name: Green Laser Walker
   description: A unit equiped with low damage lasers but in a large group capable of great things.
   maxVelocity: 1
   speed: 0.5
@@ -29,7 +29,7 @@
 type: BasicBulletType
 lifetime: 2
 //Moove Area
-speed: 0.001
+speed: 20
 damage: 5
 hitSize: 4 
 drawSize: 40
