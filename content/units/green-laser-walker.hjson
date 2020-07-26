@@ -13,7 +13,7 @@
 
   weapon: {
     name: jiliorite-blaster
-    length: 36
+    length: 2
     reload: 90
     width: 3
     alternate: false
