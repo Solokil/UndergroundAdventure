@@ -12,7 +12,7 @@
   range: 100
 
   weapon: {
-    name: mini mini-gun
+    name: jiliorite-blaster
     length: 3
     reload: 90
     width: 3
@@ -84,7 +84,7 @@ bulletHeight: 64
 bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: bulletYellow // Color of front sprite.
 backColor: bulletYellowBack // Color of back sprite.
-bulletSprite: underground-adventure-jiliorite-laser // Mapping sprite used to make the shape of the bullet.
+bulletSprite: bullet // Mapping sprite used to make the shape of the bullet.
 // <mod-name>-<sprite-name>
 //end basciBulletType
   }
