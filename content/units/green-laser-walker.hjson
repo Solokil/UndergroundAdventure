@@ -19,17 +19,18 @@
     alternate: false
     recoil: 0.25
     shake: 0.5
-    shots: 10
+    shots: 30
     spacing: 6 //weapon until unity center distance
     shotDelay: 2
     ejectEffect: shellEjectSmall
+    targetDistance: 64
 
    bullet: {
 
 type: BasicBulletType
 lifetime: 2
 //Moove Area
-speed: 20
+speed: 0
 damage: 5
 hitSize: 4 
 drawSize: 40
