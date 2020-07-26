@@ -87,6 +87,7 @@ backColor: bulletYellowBack // Color of back sprite.
 bulletSprite: underground-adventure-iron-circle // Mapping sprite used to make the shape of the bullet.
 // <mod-name>-<sprite-name>
 //end basciBulletType
+
 }
   
 }
