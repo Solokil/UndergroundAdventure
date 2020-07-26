@@ -25,7 +25,7 @@
     ejectEffect: shellEjectSmall
 
    bullet: {
-
+name: green-laser
 type: BasicBulletType
 lifetime: 1 //default null
 
