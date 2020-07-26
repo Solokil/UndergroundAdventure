@@ -13,9 +13,9 @@
 
   weapon: {
     name: jiliorite-blaster
-    length: 1
+    length: 32
     ignoreRotation: false
-    reload: 100
+    reload: 120
     width: 3
     alternate: false
     recoil: 0.25
@@ -24,7 +24,7 @@
     spacing: 6 //weapon until unity center distance
     shotDelay: 2
     ejectEffect: shellEjectSmall
-    targetDistance: 64
+    targetDistance: 0
 
    bullet: {
 
@@ -32,11 +32,11 @@ type: BasicBulletType
 lifetime: 8
 //Moove Area
 speed: 8
-damage: 5
+damage: 50
 hitSize: 64
 drawSize: 256
 drag: 0
-pierce: false
+pierce: true
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
