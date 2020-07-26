@@ -52,7 +52,7 @@ statusDuration: 300
 collidesTiles: true
 collidesTeam: false
 collidesAir: true
-collides: false
+collides: true
     keepVelocity: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
