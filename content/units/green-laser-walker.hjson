@@ -21,16 +21,16 @@
     shake: 0.5
     shots: 10
     spacing: 6 //weapon until unity center distance
-    shotDelay: 1
+    shotDelay: 2
     ejectEffect: shellEjectSmall
 
    bullet: {
 
 type: BasicBulletType
-lifetime: 300
+lifetime: 2
 //Moove Area
-speed: 0.85
-damage: 150
+speed: 0
+damage: 5
 hitSize: 4 
 drawSize: 40
 drag: 0
@@ -58,31 +58,22 @@ collides: true
     fragBullets: 25
     fragBullet: {
         type: LiquidBulletType
-        liquid: molten-iron
+        liquid: lemon-juice
         lifetime: 2700
-        speed: 0.3
-        keepVelocity: true
-        fragVelocityMin: 0.2
-        fragVelocityMax: 1
-        fragBullets: 2
-        fragBullet: {
-            type: LiquidBulletType
-            liquid: molten-iron
-            lifetime: 300
-            speed: 1
-        }
+        speed: 0.1
+        keepVelocity: false
         }
 splashDamage: 0
 splashDamageRadius: -1
 incendAmount: 0
 incendSpread: 8
 incendChance: 3
-bulletWidth: 6
-bulletHeight: 6
-bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+bulletWidth: 5
+bulletHeight: 64
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: ffffff // Color of front sprite.
 backColor: ffffff // Color of back sprite.
-bulletSprite: underground-adventure-iron-circle
+bulletSprite: underground-adventure-jiliorite-laser
 }
   
 }
