@@ -1,0 +1,23 @@
+name: Fiorite Draug Miner Drone
+description: A simple drone that mines fiorite, jiliorite and iron.
+type: UnitFactory
+unitType: fiorite-miner-drone
+health: 500
+buildCostMultiplier: 0.3
+size: 2
+produceTime: 1200
+maxSpawn: 2
+hasPower: false
+consumes: {
+  items: {
+    items: [
+      fiorite/25
+    ]
+  }
+}
+category: units
+research: draug-factory
+requirements: [
+  fiorite/150
+  jiliorite/35
+]

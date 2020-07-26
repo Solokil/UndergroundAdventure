@@ -1,0 +1,23 @@
+name: Mini Titanium Drill
+description: A mini drill made with titanium, capable of mining thorium and others resources, also it can mine very fast besides of it's size.
+type: Drill
+size: 1
+tier: 4
+drillTime: 100
+buildCostMultiplier: 0.05
+liquidBoostIntensity: 2
+consumes: {
+  liquid: {
+    liquid: lemon-juice
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  titanium/20
+  jiliorite/100
+  fiorite/120
+]
+category: production
+research: jiliorite-drill

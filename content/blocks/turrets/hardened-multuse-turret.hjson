@@ -1,0 +1,118 @@
+type: BurstTurret
+name: Hardened Gunner
+description: Has a lot of life, and a great arsenal type to face enemies in any territory. But not a great look shoot.
+health: 2430
+size: 3
+reload: 5
+range: 400
+buildCostMultiplier: 0.23
+burstSpacing: 1
+ammoUseEffect: shellEjectSmall
+inaccuracy: 4.5
+rotatespeed: 10
+targetAir: true
+maxAmmo: 160
+ammo: {
+  hardened-iron: {
+    //move 3.4 world units per frame (very fast)
+    speed: 3.5
+    damage: 350
+    bulletWidth: 8
+    bulletHeight: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 40
+    lifetime:200
+  }
+  thorium: {
+    //move 4 world units per frame (very fast)
+    speed: 4
+    damage: 300
+    bulletWidth: 9
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 12
+    lifetime:190
+  }
+  titanium: {
+    //move 4 world units per frame (very fast)
+    speed: 4
+    damage: 250
+    bulletWidth: 8
+    bulletHeight: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 15
+    lifetime:190
+  }
+  iron: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 180
+    bulletWidth: 7
+    bulletHeight: 7
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 20
+    lifetime:160
+  }
+  example-mod-silver: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 170
+    bulletWidth: 6.5
+    bulletHeight: 6.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 23
+    lifetime:160
+  }
+  copper: {
+  speed: 3
+  damage: 500
+  bulletWidth: 6
+  bulletHeight: 6
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 4
+    lifetime:220
+  }
+  lead: {
+  speed: 4.5
+  damage: 700
+  bulletWidth: 7
+  bulletHeight: 7
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 5
+    lifetime:190
+  }
+  scrap: {
+  speed: 1.8
+  damage: 250
+  bulletWidth: 5
+  bulletHeight: 5
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 8
+    lifetime:600
+  }
+  sand: {
+  speed: 1.8
+  damage: 200
+  bulletWidth: 5
+  bulletHeight: 5
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 10
+    lifetime:600
+  }
+}
+requirements: [
+  copper/1000
+  lead/600
+  hardened-iron/140
+]
+category: turret
+research: sniper-iron-turret

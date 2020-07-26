@@ -1,0 +1,22 @@
+name: Hardened Mini Titanium Drill
+description: A mini drill made with hardened titanium. Don' think will be the last drill. It vsn br very much faster with lemon juice boost.
+type: Drill
+size: 1
+tier: 6
+drillTime: 75
+buildCostMultiplier: 0.05
+liquidBoostIntensity: 10
+consumes: {
+  liquid: {
+    liquid: lemon-juice
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  hardened-titanium/15
+  titanium/250
+]
+category: production
+research: mini-thorium-drill

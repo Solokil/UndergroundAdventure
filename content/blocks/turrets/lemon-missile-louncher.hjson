@@ -1,0 +1,64 @@
+type: DoubleTurret
+name: Lemon Missile Louncher
+description: Not the best, but a great basic defense for non copper resourses maps.
+health: 750
+size: 2
+reload: 20
+range: 145
+maxAmmo: 60 //default is 30
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+buildCostMultiplier: 0.3
+rotatespeed: 12
+ammo: {
+	fiorite: {
+    speed: 3.5
+    damage: 15
+    bulletWidth: 10
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 8
+  }
+ 
+	jiliorite:{
+  type: MissileBulletType
+  lifetime: 300
+  speed: 3
+  damage: 5
+  splashDamageRadious: 2
+  splashDamage: 20
+  frontColor: ffff00
+  backColor: 00ffff
+  homingPower: 1
+  homingRange: 20
+  fragBullets: 3
+  ammoMultiplier: 5
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: lemon-juice
+    lifetime: 600
+    speed: 0.2
+    }
+  }
+
+	copper: standardCopper  
+	silicon: standardHoming
+
+
+  example-mod-silver: {
+    speed: 3
+    damage: 3
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  jiliorite/200
+  fiorite/30
+]
+category: turret
+research: fiorite-turret
