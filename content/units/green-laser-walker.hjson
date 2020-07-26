@@ -28,11 +28,11 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 1
+lifetime: 10
 //Moove Area
 speed: 0.5
 damage: 5
-hitSize: 4 
+hitSize: 64
 drawSize: 256
 drag: 0
 pierce: false
