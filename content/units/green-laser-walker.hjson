@@ -34,7 +34,7 @@ damage: 5
 hitSize: 4 
 drawSize: 40
 drag: 0
-pierce: false
+pierce: true
 hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
