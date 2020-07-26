@@ -1,0 +1,90 @@
+
+  type: groundUnit
+  name: Darkenic
+  description: A unit equiped with low damage lasers but in a large group capable of great things.
+  maxVelocity: 1
+  speed: 0.5
+  drag: 0.05
+  hitsize: 5
+  mass: 1.75
+  flying: false
+  health: 60
+  range: 100
+
+  weapon: {
+    name: mini mini-gun
+    length: 3
+    reload: 90
+    width: 3
+    alternate: false
+    recoil: 3
+    shake: 0.5
+    shots: 10
+    spacing: 6 //weapon unitl unity center distance
+    shotDelay: 1
+    ejectEffect: shellEjectSmall
+   bullet: {
+
+type: BasicBulletType
+lifetime: 1 //default null
+
+//Moove Area
+speed: 0 //default null
+
+damage: 5
+
+hitSize: 4 //default 4
+drawSize: 40 //default 40
+drag: 0 //decelleration per tick
+pierce: false //wheter it can collide
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.5
+hitTile: true //Wheter this bullet hits tiles
+status: melting //Status aplied on hit can be: 
+             //none,burning,freezing,wet,melting,tarred,
+             //overdrive,shilded,boss,shocked,corroded
+statusDuration: 300 //duration in frames.. the game has 60 frames per second
+
+collidesTiles: true //collides enemy tiles
+collidesTeam: false //collides team tiles
+collidesAir: true //collides air things like drones
+collides: true //if it can collides
+
+keepVelocity: true //Whether velocity is inherited from the shooter.
+                   //false if it is. true if bullet mantains it velocity
+fragVelocityMin: 0.2 //default 0.2
+fragVelocityMax: 1 //default1
+
+fragBullets: 1 //Number of frag bullets created. //default 9
+fragBullet: {
+        type: LiquidBulletType
+        liquid: lemon-juice
+        lifetime: 74 //default is 74 (74 frames from 60/second)
+        speed: 0.1
+        }
+
+splashDamage: 0 //Area of effect damage when the bullet despawns or hits a target. Damage is calculated with linear interpolation, also known as lerp.
+splashDamageRadius: -1 //Use a negative value to disable splash damage. splashDamageRadius is a value used in the equation lerp(1 - distance / radius, 1, 0.4) which is a multiplier for splashDamage.
+incendAmount: 0
+incendSpread: 8
+incendChance: 3 //default is 1
+
+//Fields till "//end basicBulletType" are from basic bullet type purpose from this archive bullet type
+bulletWidth: 6
+bulletHeight: 64
+bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: bulletYellow // Color of front sprite.
+backColor: bulletYellowBack // Color of back sprite.
+bulletSprite: underground-adventure-jiliorite-laser-0.8x8 // Mapping sprite used to make the shape of the bullet.
+// <mod-name>-<sprite-name>
+//end basciBulletType
+  }
+}
