@@ -28,7 +28,7 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 30
+lifetime: 1
 //Moove Area
 speed: 0.5
 damage: 5
@@ -69,7 +69,7 @@ splashDamageRadius: -1
 incendAmount: 0
 incendSpread: 8
 incendChance: 3
-bulletWidth: 7
+bulletWidth: 4
 bulletHeight: 64
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: ffffff // Color of front sprite.
