@@ -13,7 +13,7 @@
 
   weapon: {
     name: jiliorite-blaster
-    length: 1
+    length: 30
     ignoreRotation: false
     reload: 100
     width: 3
@@ -29,7 +29,7 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 5
+lifetime: 8
 //Moove Area
 speed: 8
 damage: 5
@@ -70,7 +70,7 @@ splashDamageRadius: -1
 incendAmount: 0
 incendSpread: 8
 incendChance: 3
-bulletWidth: 4
+bulletWidth: 2.8
 bulletHeight: 64
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: ffffff // Color of front sprite.
