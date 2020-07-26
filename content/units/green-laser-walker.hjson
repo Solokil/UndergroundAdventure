@@ -14,8 +14,8 @@
   weapon: {
     name: jiliorite-blaster
     length: 1
-    ignoreRotation: true
-    reload: 90
+    ignoreRotation: false
+    reload: 100
     width: 3
     alternate: false
     recoil: 0.25
@@ -29,9 +29,9 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 2
+lifetime: 5
 //Moove Area
-speed: 32
+speed: 8
 damage: 5
 hitSize: 64
 drawSize: 256
