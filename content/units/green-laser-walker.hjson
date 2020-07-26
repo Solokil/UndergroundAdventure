@@ -1,6 +1,6 @@
 
   type: groundUnit
-  name: Green Laser Walker
+  name: Jiliorite voider
   description: A unit equiped with low damage lasers but in a large group capable of great things.
   maxVelocity: 1
   speed: 0.5
