@@ -65,7 +65,7 @@ ammoMultiplier: 1
 reloadMultiplier: 1
 recoil: 0
 knockback: 0.5
-hitTile: true
+hitTiles: true
 status: melting 
 statusDuration: 300
 collidesTiles: true
