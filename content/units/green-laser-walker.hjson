@@ -17,12 +17,13 @@
     reload: 90
     width: 3
     alternate: false
-    recoil: 3
+    recoil: 0.25
     shake: 0.5
     shots: 10
-    spacing: 6 //weapon unitl unity center distance
+    spacing: 6 //weapon until unity center distance
     shotDelay: 1
     ejectEffect: shellEjectSmall
+
    bullet: {
 
 type: BasicBulletType
@@ -83,7 +84,7 @@ bulletHeight: 64
 bulletShrink: 0.5 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
 frontColor: bulletYellow // Color of front sprite.
 backColor: bulletYellowBack // Color of back sprite.
-bulletSprite: underground-adventure-jiliorite-laser-0.8x8 // Mapping sprite used to make the shape of the bullet.
+bulletSprite: underground-adventure-jiliorite-laser // Mapping sprite used to make the shape of the bullet.
 // <mod-name>-<sprite-name>
 //end basciBulletType
   }
