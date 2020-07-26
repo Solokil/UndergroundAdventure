@@ -30,7 +30,7 @@
 type: BasicBulletType
 lifetime: 1
 //Moove Area
-speed: 0
+speed: 1
 damage: 5
 hitSize: 4 
 drawSize: 256
