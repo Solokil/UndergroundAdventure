@@ -14,7 +14,7 @@
   weapon: {
     name: jiliorite-blaster
     length: 35
-    ignoreRotation: false
+    ignoreRotation: true
     reload: 120
     width: 3
     alternate: false
