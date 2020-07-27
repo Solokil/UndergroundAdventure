@@ -1,0 +1,32 @@
+type: ArtilleryTurret
+name: Sniper Jilifior Turret
+description: have more armor than a bunch of walls, but low damage per shoot. It also can shoot scrap as the others snipers.
+health: 5600
+size: 2
+buildCostMultiplier: 0.7
+reload: 6
+range: 440 //range of 55 blocks
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 10
+targetAir: true
+ammo: {
+
+  scrap: {
+  speed: 4 // 4 blocks per second
+  lifetime: 900
+  damage: 5
+  bulletWidth: 10
+  bulletHeight: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 4
+  }
+
+} //end ammo
+requirements: [
+  jilifior-alloy/5
+  jiliorite/50
+]
+category: turret
+research: sniper-iron-turret
