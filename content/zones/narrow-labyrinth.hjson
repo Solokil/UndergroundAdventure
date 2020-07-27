@@ -9,7 +9,7 @@ startingItems:
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
-loadout: advancedShard
+loadout: fiorite-core-basic
 requirements: [
   {
     type: ZoneWave
