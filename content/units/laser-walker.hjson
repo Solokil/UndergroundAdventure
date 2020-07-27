@@ -13,16 +13,17 @@ type: groundUnit
   weapon: {
     name: water-throw
     length: 3
-    ignoreRotation: true
+    ignoreRotation: false
     reload: 180
     width: 4.3
-    alternate: true
-    recoil: 1.5
-    shake: 1.2
-    shots: 1
+    alternate: false
+    recoil: 2
+    shake: 0.8
+    shots: 3
     spacing: 6 //weapon until unity center distance
     ejectEffect: shellEjectSmall
     targetDistance: 0
+    shotDelay:20
 
    bullet: lancerLaser
   
