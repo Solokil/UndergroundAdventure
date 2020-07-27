@@ -9,7 +9,7 @@
   mass: 1.75
   flying: false
   health: 350
-  range: 100
+  range: 72
 
   weapon: {
     name: jiliorite-blaster
