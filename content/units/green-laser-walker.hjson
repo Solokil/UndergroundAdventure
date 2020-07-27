@@ -3,7 +3,7 @@
   name: Jiliorite voider
   description: A weak unit equiped with a low range void weapon. don't let it get closer!!!
   maxVelocity: 1
-  speed: 0.5
+  speed: 0.4
   drag: 0.05
   hitsize: 5
   mass: 1.75
@@ -22,7 +22,7 @@
     shake: 0.5
     shots: 30
     spacing: 6 //weapon until unity center distance
-    shotDelay: 2
+    shotDelay: 3
     ejectEffect: shellEjectSmall
     targetDistance: 0
 
