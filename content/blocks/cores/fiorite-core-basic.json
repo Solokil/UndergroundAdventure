@@ -1,6 +1,6 @@
 {
 	"name": "Fiorite Core Basic",
-	"description": "A Core made from fiorite with large capacity and low size",
+	"description": "A Core made from fiorite with large capacity and low size. 5000 health and 12000 capacity",
 	"type": "CoreBlock",
 	"health": 5000,
 	"breakable": true,
