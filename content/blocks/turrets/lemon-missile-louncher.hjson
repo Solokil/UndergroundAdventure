@@ -44,6 +44,7 @@ ammo: {
 
 	copper: standardCopper  
 	silicon: standardHoming
+	titanium: standardDense
 
 
   example-mod-silver: {
