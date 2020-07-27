@@ -1,25 +1,25 @@
 {
-	"name": "Shadowned Core",
-	"description": "Shadowned Core",
+	"name": "Fiorite Core Basic",
+	"description": "A Core made from fiorite with large capacity and low size",
 	"type": "CoreBlock",
-	"health": 6000,
+	"health": 5000,
 	"breakable": true,
 	"destructible": true,
-	"size": 6,
-	"itemCapacity": 21000,
+	"size": 2,
+	"itemCapacity": 12000,
 	"unloadable": true,
 	"requirements": [
 	    {
-			"item": "shadum-alloy",
-			"amount": 1300
+			"item": "fiorite",
+			"amount": 1000
 		},
 		{
-			"item": "surge-alloy",
-			"amount": 850
+			"item": "jiliorite",
+			"amount": 800
 		},
 		{
-			"item": "phase-fabric",
-			"amount": 400
+			"item": "jilifior-alloy",
+			"amount": 100
 		}
 	],
   "category": "effect",
