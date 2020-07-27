@@ -1,0 +1,51 @@
+name: Narrow Labyrinth
+description:  The underground seams like a[yellow] paradise[] of resources (you have already noticed)... but it is straight and hard to get them... The enemies are used to this kind of enviroment.\n  Learn how to use this terrain and[red] defeat the enemy base!
+startingItems:
+[
+  copper/1200
+  lead/1000
+  fiorite/2500
+  jiliorite/1800
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
+loadout: advancedShard
+requirements: [
+  {
+    type: ZoneWave
+    zone: fiorite-cavern
+    wave: 50
+  }
+  {
+    type: Unlock
+    block: sniper-jilifior-turret
+  }  
+  {
+    type: Unlock
+    block: jiliorite-builder-advanced-drone-factory
+  }
+  {
+    type: Unlock
+    block: mini-thorium-drill
+  }
+]
+configureObjective: {
+   type: Launched
+   zone: narrow-labyrinth
+}
+
+resources: [
+  copper
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  example-mod-gold-powder
+  example-mod-silver
+  fiorite
+  jiliorite
+]
