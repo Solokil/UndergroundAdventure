@@ -1,0 +1,29 @@
+type: groundUnit
+  name: Laser Walker
+  description: An well armored unit equiped with a lancerLaser weapon. very destructive power!
+  maxVelocity: 1.1
+  speed: 0.4
+  drag: 0.05
+  hitsize: 5
+  mass: 1.75
+  flying: false
+  health: 1750
+  range: 120
+
+  weapon: {
+    name: water-throw
+    length: 3
+    ignoreRotation: true
+    reload: 180
+    width: 4.3
+    alternate: true
+    recoil: 1.5
+    shake: 1.2
+    shots: 1
+    spacing: 6 //weapon until unity center distance
+    ejectEffect: shellEjectSmall
+    targetDistance: 0
+
+   bullet: lancerLaser
+  
+}
