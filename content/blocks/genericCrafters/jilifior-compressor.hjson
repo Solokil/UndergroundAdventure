@@ -7,7 +7,7 @@ outputItem: {
   item: jilifior-alloy
   amount: 1
 }
-size: 2
+size: 3
 hasPower: true
 hasLiquids: true
 craftTime: 20
