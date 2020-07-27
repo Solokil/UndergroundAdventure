@@ -20,10 +20,8 @@ consumes: {
   }
   items:
   {
-     items:[
      jiliorite/3
      fiorite/3
-     ]
   }
 }
 
