@@ -12,12 +12,22 @@ rotatespeed: 10
 targetAir: true
 ammo: {
 
+  titanium: {
+  speed: 4 // 4 blocks per second
+  damage: 15
+  bulletWidth: 6
+  bulletHeight: 10
+  backColor: blue
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 4
+  }
+
   scrap: {
   speed: 4 // 4 blocks per second
-  lifetime: 900
   damage: 5
-  bulletWidth: 10
-  bulletHeight: 15
+  bulletWidth: 4
+  bulletHeight: 7
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 4
