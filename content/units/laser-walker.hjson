@@ -23,7 +23,7 @@ type: groundUnit
     spacing: 6 //weapon until unity center distance
     ejectEffect: shellEjectSmall
     targetDistance: 0
-    shotDelay:20
+    shotDelay: 20
 
    bullet: lancerLaser
   
