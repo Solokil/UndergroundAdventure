@@ -3,6 +3,7 @@ name: Sniper Jilifior Turret
 description: have more armor than a bunch of walls, but low damage per shoot. It also can shoot scrap as the others snipers.
 health: 5600
 size: 2
+maxAmmo: 150 //default is 30
 buildCostMultiplier: 0.7
 reload: 6
 range: 440 //range of 55 blocks
@@ -12,12 +13,37 @@ rotatespeed: 10
 targetAir: true
 ammo: {
 
+  jilifior-alloy: standardDenseBig
+  example-mod-electrum: lightning
+  thorium: standardThorium
+
+  jiliorite:{
+  type: MissileBulletType
+  lifetime: 300
+  speed: 3
+  damage: 7
+  splashDamageRadious: 2
+  splashDamage: 20
+  frontColor: ffff00
+  backColor: 00ffff
+  homingPower: 1
+  homingRange: 20
+  fragBullets: 1
+  ammoMultiplier: 7
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: lemon-juice
+    lifetime: 200
+    speed: 0.2
+    }
+  }
+
   titanium: {
   speed: 4 // 4 blocks per second
   damage: 15
   bulletWidth: 6
   bulletHeight: 10
-  backColor: 10a5f5
+  backColor: blue
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 4
