@@ -2,7 +2,7 @@ type: GenericCrafter
 name: "Jilifior Compressor"
 description: "compress jiliorite and fiorite into jilifior alloy. uses lemon juice"
 liquidCapacity: 1000
-buildCostMultiplier: 0.15
+buildCostMultiplier: 0.1
 outputItem: {
   item: jilifior-alloy
   amount: 1
@@ -12,14 +12,19 @@ hasPower: true
 hasLiquids: true
 craftTime: 20
 updateEffect: smeltsmoke
+
 consumes: {
   power: 3
   liquid: lemon-juice/0.8
-  items: [
-  jiliorite/3
-  fiorite/3
-  ]
+  items:
+  {
+     items:[
+     item: jiliorite/3
+     item: fiorite/3
+     ]
+  }
 }
+
 requirements: [
   fiorite/500
   jiliorite/500
