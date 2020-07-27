@@ -24,7 +24,6 @@ items:
     ]
   }
 }
-}
 
 requirements: [
   fiorite/500
