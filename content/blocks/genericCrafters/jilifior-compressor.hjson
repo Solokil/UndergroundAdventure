@@ -15,7 +15,9 @@ updateEffect: smeltsmoke
 
 consumes: {
   power: 3
-  liquid: lemon-juice/0.8
+  liquid: {
+  lemon-juice/0.8
+  }
   items:
   {
      items:[
