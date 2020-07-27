@@ -22,14 +22,14 @@
     shake: 0.5
     shots: 30
     spacing: 6 //weapon until unity center distance
-    shotDelay: 2
+    shotDelay: 1
     ejectEffect: shellEjectSmall
     targetDistance: 0
 
    bullet: {
 
 type: BasicBulletType
-lifetime: 7
+lifetime: 2
 //Moove Area
 speed: 8
 damage: 75
