@@ -1,5 +1,4 @@
 type: Conveyor
-health
 name: Fiorite conveyor
 health: 320
 buildCostMultiplier: 0.2
