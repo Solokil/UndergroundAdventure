@@ -43,7 +43,7 @@ ammo: {
   damage: 15
   bulletWidth: 6
   bulletHeight: 10
-  backColor: blue
+  backColor: 45b6fe
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 4
