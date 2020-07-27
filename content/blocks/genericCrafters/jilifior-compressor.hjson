@@ -15,14 +15,7 @@ updateEffect: smeltsmoke
 
 consumes: {
   power: 3
-  liquid: {
-  lemon-juice/0.8
-  }
-  items:
-  {
-     jiliorite/3
-     fiorite/3
-  }
+  liquid: lemon-juice/0.8
 }
 
 requirements: [
