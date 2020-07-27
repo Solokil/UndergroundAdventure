@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: "Jilifior Compressor"
 description: "Compress jiliorite and fiorite into jilifior alloy. uses lemon juice"
-liquidCapacity: 1000
+liquidCapacity: 100
 buildCostMultiplier: 0.1
 outputItem: {
   item: jilifior-alloy
