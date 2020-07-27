@@ -13,7 +13,7 @@ type: groundUnit
   weapon: {
     name: water-throw
     length: 3
-    ignoreRotation: false
+    ignoreRotation: true
     reload: 180
     width: 4.3
     alternate: false
