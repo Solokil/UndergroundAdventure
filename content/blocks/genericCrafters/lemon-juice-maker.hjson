@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Lemon Juice Maker"
+description: "Makes lemon juice from jiliorite... don't ask how..."
+liquidCapacity: 240
+buildCostMultiplier: 0.3
+outputLiquid: {
+  liquid: lemon-juice
+  amount: 20
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  item: jiliorite
+}
+requirements: [
+  fiorite/50
+  jiliorite/300
+]
+category: crafting
+research: iron-melter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
