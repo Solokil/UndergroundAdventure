@@ -1,14 +1,14 @@
 
   type: groundUnit
   name: Jiliorite voider
-  description: A weak unit equiped with a low range void weapon. don't let it get closer!!!
-  maxVelocity: 1
+  description: An low armored unit equiped with a low range void weapon. don't let it get closer!!! and don't spend troops trying to handle it.
+  maxVelocity: 1.1
   speed: 0.4
   drag: 0.05
   hitsize: 5
   mass: 1.75
   flying: false
-  health: 60
+  health: 350
   range: 100
 
   weapon: {
