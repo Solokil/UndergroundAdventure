@@ -4,8 +4,9 @@ startingItems:
 [
   copper/1200
   lead/1000
-  fiorite/2500
-  jiliorite/1800
+  fiorite/10000
+  jiliorite/11000
+  thorium/1500
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
