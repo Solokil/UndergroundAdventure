@@ -36,6 +36,7 @@ configureObjective: {
 }
 
 resources: [
+
   copper
   // my first mineral
   iron
