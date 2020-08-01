@@ -1,0 +1,53 @@
+type: DoubleTurret
+name: Titanium Turret
+description: A duo, but made of jilifior. Has a great amount of life and needs to be charged only once!
+health: 450
+size: 1
+reload: 15
+buildCostMultiplier: 0.1
+range: 120
+maxAmmo: 45 //default is 30
+ammoUseEffect: shellEjectSmall
+inaccuracy: 25
+rotatespeed: 12
+ammo: {
+	titanium: {
+    speed: 4.5
+    lifetime:220
+    damage: 25
+    bulletWidth: 13
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+  }
+ 
+	jiliorite:{
+    speed: 4
+    damage: 10
+    bulletWidth: 11
+    bulletHeight: 11
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 6
+  }
+
+	copper: standardCopper  
+	silicon: standardHoming
+
+
+  example-mod-silver: {
+    speed: 3
+    damage: 3
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 30
+  }
+}
+requirements: [
+  jilifior/75
+]
+category: turret
+research: tier2
