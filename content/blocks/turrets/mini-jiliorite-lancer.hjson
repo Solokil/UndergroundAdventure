@@ -1,5 +1,5 @@
 type: DoubleTurret
-name: Mini Jiliorite Double Lancer
+name: Mini Jiliorite Lancer
 description: A mini lancer made of jiliorite, does not spend energy but needs ammo. may have bullets variations if not used jiliorite as ammo. It also takes a little long to shoot
 health: 450
 size: 1
@@ -39,4 +39,4 @@ requirements: [
   jiliorite/70
 ]
 category: turret
-research: jiliorite-turret
+research: lemon-missile-louncher
