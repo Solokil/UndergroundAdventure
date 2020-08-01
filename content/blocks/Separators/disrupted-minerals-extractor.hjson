@@ -1,6 +1,6 @@
 type: Separator
 name: Disrupted Minerals Extractor
-description: A extractor that can find basic disrupted minerals from the underground, works very fast and don't speend energy!
+description: A extractor that can find basic disrupted minerals from the underground, works very fast and don't speend energy! It needs lemon juice to work well
 size: 2
 hasPower: false
 hasItems: true
@@ -26,7 +26,7 @@ requirements: [
   lead/200
   titanium/50
 ]
-category: crafting
+category: production
 research: jiliorite-drill
 idleSound: respawning
 idleSoundVolume: 0.5
