@@ -10,6 +10,7 @@ maxAmmo: 1 //default is 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 2
 rotatespeed: 12
+ammoPerShot: 0
 ammo: {
         jilifior-alloy: {
     speed: 5
