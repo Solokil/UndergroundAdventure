@@ -1,0 +1,35 @@
+name: Hardened silicon smelter
+type: GenericSmelter
+description: A hardened smelter of silicon, smelts hardened-iron to make more silicon spending low energy in the process... But takes a lot of jiliorite to build.
+size: 4
+solid: true
+hasItems: true
+hasPower: true
+itemCapacity: 60
+buildCostMultiplier: 0.05
+
+craftTime: 120
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    titanium/120
+    iron/200
+    silicon/100
+    jiliorite/3750
+    hardened-iron/50
+]
+
+consumes: {
+    power: 0.7
+    items: {
+        items: [
+            hardened-iron/1
+        ]
+    }
+}
+
+outputItem: silicon/12
+
+category: crafting
+research: tier2
