@@ -5,7 +5,7 @@ size: 1
 tier: 4
 drillTime: 100
 buildCostMultiplier: 0.05
-liquidBoostIntensity: 3
+liquidBoostIntensity: 4.5
 consumes: {
   liquid: {
     liquid: lemon-juice
