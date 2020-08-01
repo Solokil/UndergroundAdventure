@@ -3,14 +3,14 @@ name: "Jiliorite Crafter"
 description: "Makes jiliorite from Copper, takes a little long to make it..."
 outputItem: {
   item: jiliorite
-  amount: 4
+  amount: 2
 }
 buildCostMultiplier: 0.3
 size: 1
 hasPower: false
 hasLiquids: false
 hasItems: true
-craftTime: 60
+craftTime: 90
 updateEffect: smeltsmoke
 consumes: {
   item: copper
