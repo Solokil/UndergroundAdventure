@@ -32,7 +32,7 @@ ammo: {
 	}
 }
 requirements: [
-  jiliorite/70
+  titanium/70
 ]
 category: turret
 research: mini-jiliorite-lancer
