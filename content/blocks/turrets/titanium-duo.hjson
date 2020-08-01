@@ -4,7 +4,7 @@ description: A duo, but made of titanium. Great if you have titanium to waste.
 health: 450
 size: 1
 reload: 15
-buildCostMultiplier: 0.1
+buildCostMultiplier: 0.4
 range: 120
 maxAmmo: 45 //default is 30
 ammoUseEffect: shellEjectSmall
