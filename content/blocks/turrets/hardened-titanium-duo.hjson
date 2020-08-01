@@ -3,10 +3,10 @@ name: Jilifior Duo
 description: A duo, but made of Hardened Titanium. Has a VERY LARGE amount of life and needs to be charged only once!
 health: 4750
 size: 1
-reload: 10
+reload: 6
 buildCostMultiplier: 0.3
 range: 160
-maxAmmo: 1 //default is 30
+maxAmmo: 2 //default is 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 20
 rotatespeed: 12
@@ -14,8 +14,8 @@ ammoPerShot: 0
 ammo: {
         hardened-titanium: {
     speed: 4
-    lifetime: 150
-    damage: 23
+    lifetime: 100
+    damage: 20
     bulletWidth: 14
     bulletHeight: 17
     shootEffect: shootSmall
@@ -27,7 +27,7 @@ ammo: {
  
 	jiliorite:{
     speed: 4
-    damage: 10
+    damage: 7
     bulletWidth: 11
     bulletHeight: 11
     shootEffect: shootSmall
