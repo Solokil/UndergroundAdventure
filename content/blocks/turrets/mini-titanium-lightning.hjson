@@ -24,7 +24,7 @@ ammo: {
   damage: 1
   frontColor: 66ccff
   backColor: 66ccff
-  bulletSprite: jiliorite-laser
+  bulletSprite: underground-adventure-jiliorite-laser
 
 	fragBullets: 3
   ammoMultiplier: 5
