@@ -35,7 +35,6 @@ ammo: {
     ammoMultiplier: 1
   }
 
-
   example-mod-electrum: damageLightning
 }
 requirements: [
