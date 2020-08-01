@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: "Jiliorite Crafter"
-description: "Makes jiliorite from Cooper, takes a little long to make it..."
+description: "Makes jiliorite from Copper, takes a little long to make it..."
 outputItem: {
   item: jiliorite
   amount: 1
@@ -13,7 +13,7 @@ hasItems: true
 craftTime: 60
 updateEffect: smeltsmoke
 consumes: {
-  item: cooper
+  item: copper
 }
 requirements: [
   lead/80
