@@ -1,0 +1,9 @@
+type: MessageBlock
+name: Tier Block
+description: Deconstruct this to get resources that are pretty hard to get. Cannot be built. Only located in few zones.
+requirements: [
+jilifior-alloy/41
+hardened-titanium/41
+]
+category: effect
+buildVisibility: sandboxOnly

@@ -1,0 +1,9 @@
+name: Tier 2 Blocks from Underground!
+description: Research this to unlock tier 2 blocks.
+requirements: [
+jilifior-alloy/1
+hardened-titanium/1
+]
+category: effect
+buildVisibility: debugOnly
+research: core-shard
