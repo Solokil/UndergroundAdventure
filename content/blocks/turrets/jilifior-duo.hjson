@@ -56,7 +56,7 @@ ammo: {
   }
 }
 requirements: [
-  jilifior/75
+  jilifior-alloy/75
 ]
 category: turret
 research: tier2
