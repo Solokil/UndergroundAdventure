@@ -17,7 +17,6 @@ consumes: {
   item: jiliorite
 }
 requirements: [
-  fiorite/50
   jiliorite/300
 ]
 category: crafting
