@@ -1,0 +1,45 @@
+type: ChargeTurret
+name: Energy Iron Missile Louncher
+description: A missile louncher that spend energy low energy, no ammo, but take a little long to shoot!
+health: 950
+size: 2
+reload: 60
+range: 185
+inaccuracy: 10
+buildCostMultiplier: 0.3
+rotatespeed: 12
+
+chargeTime: 0.3
+chargeMaxDelay: 0.1
+chargeEffects: 10
+chargeEffect: lancerLaserCharge
+heatColor: ff0000
+powerUse: 0.2
+shootType: {
+ 
+  type: MissileBulletType
+  lifetime: 210
+  speed: 4
+  damage: 30
+  splashDamageRadious: 10
+  splashDamage: 30
+  frontColor: c3ccff
+  backColor: c3ccff
+  homingPower: 1.2
+  homingRange: 28
+  fragBullets: 3
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: molten-iron
+    lifetime: 600
+    speed: 0.2
+    }
+  
+
+}
+requirements: [
+  iron/100
+  titanium/30
+]
+category: turret
+research: mini-titanium-lightning
