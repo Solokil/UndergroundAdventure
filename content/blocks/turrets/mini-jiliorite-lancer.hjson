@@ -3,7 +3,7 @@ name: Mini Jiliorite Double Lancer
 description: A mini lancer made of jiliorite, does not spend energy but needs ammo. may have bullets variations if not used jiliorite as ammo. It also takes a little long to shoot
 health: 450
 size: 1
-reload: 60
+reload: 130
 cooldown: 60
 buildCostMultiplier: 0.4
 range: 180
