@@ -24,7 +24,7 @@ ammo: {
 
 	fiorite: {
     speed: 4.2
-    damage: 40
+    damage: 250
     bulletWidth: 6
     bulletHeight: 9
     shootEffect: shootSmall
