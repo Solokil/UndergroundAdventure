@@ -3,7 +3,7 @@ name: "Jiliorite Crafter"
 description: "Makes jiliorite from Copper, takes a little long to make it..."
 outputItem: {
   item: jiliorite
-  amount: 1
+  amount: 4
 }
 buildCostMultiplier: 0.3
 size: 1
