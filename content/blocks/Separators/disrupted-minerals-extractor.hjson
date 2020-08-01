@@ -24,9 +24,9 @@ results:  [
 requirements: [
   copper/100
   lead/200
-  thorium/50
+  titanium/50
 ]
-category: production
+category: crafting
 research: jiliorite-drill
 idleSound: respawning
 idleSoundVolume: 0.5
