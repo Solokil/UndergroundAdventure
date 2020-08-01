@@ -5,13 +5,13 @@ size: 2
 hasPower: false
 hasItems: true
 hasLiquids: true
-craftTime: 4
+craftTime: 3
 craftEffect: smeltsmoke
 consumes: {
   liquid:{
   liquid: lemon-juice
   amount: 0.1
-  optional: true
+  optional: false
   booster: true
   }
 }
