@@ -1,0 +1,38 @@
+type: DoubleTurret
+name: Mini Titanium Lightning
+description: Shoot a bullet that frags into lightnings.
+health: 520
+size: 1
+reload: 25
+buildCostMultiplier: 0.2
+range: 210
+maxAmmo: 35 //default is 30
+
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+heatColor: ff0000
+
+targetAir: true
+
+inaccuracy: 3
+rotatespeed: 10
+ammo: {
+	titanium: {
+  type: BasicBulletType
+  lifetime: 80
+  speed: 3.2
+  damage: 1
+  frontColor: 66ccff
+  backColor: 66ccff
+  sprite: jiliorite-laser
+
+	fragBullets: 3
+  ammoMultiplier: 5
+  fragBullet: lightning
+	}
+}
+requirements: [
+  jiliorite/70
+]
+category: turret
+research: mini-jiliorite-lancer
