@@ -3,7 +3,7 @@ name: Mini Titanium Lightning
 description: Shoot a bullet that frags into lightnings.
 health: 520
 size: 1
-reload: 75
+reload: 100
 buildCostMultiplier: 0.2
 range: 210
 maxAmmo: 35 //default is 30
