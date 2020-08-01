@@ -38,8 +38,8 @@ shootType: {
 
 }
 requirements: [
-  iron/100
-  titanium/30
+  iron/20
+  titanium/5
 ]
 category: turret
 research: mini-titanium-lightning
