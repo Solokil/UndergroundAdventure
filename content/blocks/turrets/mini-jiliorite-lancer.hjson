@@ -1,0 +1,42 @@
+type: DoubleTurret
+name: Mini Jiliorite Double Lancer
+description: A mini lancer made of jiliorite, does not spend energy but needs ammo. may have bullets variations if not used jiliorite as ammo. It also takes a little long to shoot
+health: 450
+size: 1
+reload: 60
+cooldown: 60
+buildCostMultiplier: 0.4
+range: 180
+maxAmmo: 10 //default is 30
+
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect:lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: ff0000
+
+targetAir: true
+
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+    jiliorite: lancerLaser
+
+	fiorite: {
+    speed: 4.2
+    damage: 40
+    bulletWidth: 6
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+ 
+	titanium: lightning
+	silicon: standardHoming
+}
+requirements: [
+  jiliorite/70
+]
+category: turret
+research: duo
