@@ -14,7 +14,7 @@ ammoPerShot: 0
 ammo: {
         jilifior-alloy: {
     speed: 5
-    lifetime: 250
+    lifetime: 100
     damage: 30
     bulletWidth: 14
     bulletHeight: 17
@@ -25,7 +25,7 @@ ammo: {
 
 	titanium: {
     speed: 4.5
-    lifetime:250
+    lifetime:107
     damage: 25
     bulletWidth: 13
     bulletHeight: 15
