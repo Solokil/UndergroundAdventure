@@ -4,7 +4,7 @@ description: A duo, but made of Hardened Titanium. Has a VERY LARGE amount of li
 health: 4750
 size: 1
 reload: 10
-buildCostMultiplier: 0.35
+buildCostMultiplier: 0.3
 range: 160
 maxAmmo: 1 //default is 30
 ammoUseEffect: shellEjectSmall
@@ -39,7 +39,7 @@ ammo: {
   example-mod-electrum: damageLightning
 }
 requirements: [
-  jilifior-alloy/75
+  hardened-titanium/115
 ]
 category: turret
-research: tier2
+research: jilifior-duo
