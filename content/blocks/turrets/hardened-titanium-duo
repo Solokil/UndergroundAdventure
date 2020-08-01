@@ -15,7 +15,7 @@ ammo: {
         hardened-titanium: {
     speed: 4
     lifetime: 150
-    damage: 30
+    damage: 23
     bulletWidth: 14
     bulletHeight: 17
     shootEffect: shootSmall
@@ -36,7 +36,7 @@ ammo: {
   }
 
 
-  example-mod-electrum: 
+  example-mod-electrum: damageLightning
 }
 requirements: [
   jilifior-alloy/75
