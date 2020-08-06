@@ -38,8 +38,8 @@ shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 hitSound: null
 inaccuracy: 0.5 //in degrees
-ammoMultiplier: 1
-reloadMultiplier: 1
+ammoMultiplier: 5
+reloadMultiplier: 2
 recoil: 0
 knockback: 0.5
 hitTiles: true
@@ -96,7 +96,7 @@ backColor: 722f37 // Color of back sprite.
   }
 }
 requirements: [
-  titanium/40
+  kalin/103
 ]
 category: turret
-research: fiorite-turret
+research: jiliorite-core-base
