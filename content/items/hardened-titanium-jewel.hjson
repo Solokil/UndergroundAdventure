@@ -1,0 +1,6 @@
+type: material
+name: Hardened Titanium Jewel
+description: A Jewel made from the hard process of hardened titanium. This is the first tier 2 Jewel.
+hardness: 2
+cost: 2
+color: 1663be
