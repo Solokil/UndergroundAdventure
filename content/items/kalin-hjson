@@ -1,0 +1,6 @@
+type: material
+name: Kalin
+description: A desrupted mineral class, Kalin is a moderately hare resource, can be produced but is pretty hard to make it...
+hardness: 1
+cost: 1
+color: 5e1224 //wine
