@@ -1,0 +1,11 @@
+name: Small Jiliorite Wall
+description: A wall made of jilioritr. it is very resistent as averything made of jilioritr.
+buildCostMultiplier: 0.3
+type: Wall
+health: 4000
+size: 2
+requirements: [
+  jiliorite/97
+]
+category: defense
+research: fiorite-wall
