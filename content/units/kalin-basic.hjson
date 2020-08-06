@@ -12,7 +12,7 @@
 
   weapon: {
     name: kalin-blaster
-    length: 35
+    length: 5.7
     ignoreRotation: true
     reload: 90
     width: 3
@@ -28,9 +28,9 @@
    bullet: {
 
 type: BasicBulletType
-lifetime: 90
+lifetime: 60
 //Moove Area
-speed: 5
+speed: 4
 damage: 1000
 hitSize: 6
 drawSize: 32
@@ -64,8 +64,8 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 100
-splashDamageRadius: 4
+splashDamage: 0
+splashDamageRadius: -1
 incendAmount: 0
 incendSpread: 8
 incendChance: 10
