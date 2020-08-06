@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: Purple Stone Block
+buildCostMultiplier: 0.1
+description: A massive block, made of kalin (a variation of red stone block).
+hasLiquids: false
+health: 2800
+size: 1
+powerProduction: 2.5
+consumes: {
+}
+requirements: [
+   kalin/100
+]
+category: power
+research: kalin-market
