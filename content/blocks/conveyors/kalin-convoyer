@@ -1,0 +1,11 @@
+type: Conveyor
+name: Fiorite conveyor
+health: 320
+buildCostMultiplier: 0.2
+description: A moderate speed conveyor made out of fiorite and with a great armor.
+requirements: [
+  fiorite/12
+]
+category: distribution
+speed: 0.1
+research: fiorite-core-basic
