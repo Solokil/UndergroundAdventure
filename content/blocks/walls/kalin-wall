@@ -1,11 +1,11 @@
 name: Kalin Wall
-description: A wall made of kalin. A tier2 wall.
+description: A wall made of kalin. A huge tier2 wall.
 buildCostMultiplier: 0.03
 type: Wall
 health: 80000
-size: 1
+size: 2
 requirements: [
-  kalin/100
+  kalin/130
 ]
 category: defense
 research: small-kalin-wall
