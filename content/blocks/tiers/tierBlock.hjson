@@ -4,6 +4,7 @@ description: Deconstruct this to get resources that are pretty hard to get. Cann
 requirements: [
 jilifior-alloy/41
 hardened-titanium/41
+kalin/41
 ]
 category: effect
 buildVisibility: sandboxOnly
