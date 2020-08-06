@@ -1,0 +1,6 @@
+type: material
+name: Titanium Jewel
+description: A Jewel made from the hard process of titanium.
+hardness: 1
+cost: 1
+color: 99edc3 //mint
