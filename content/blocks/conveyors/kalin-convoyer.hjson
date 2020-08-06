@@ -1,0 +1,11 @@
+type: Conveyor
+name: Kalyn conveyor
+health: 2571
+buildCostMultiplier: 0.1
+description: A moderate speed conveyor made out of kalin and with a very huge armor.
+requirements: [
+  kalin/2
+]
+category: distribution
+speed: 0.1
+research: fiorite-core-basic
