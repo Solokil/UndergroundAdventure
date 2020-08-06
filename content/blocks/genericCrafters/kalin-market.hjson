@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Kalin Market"
+description: "A market where you can change a large amount of jiliorite by kalin"
+outputItem: {
+  item: kalin
+  amount: 2
+}
+buildCostMultiplier: 0.1
+size: 3
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  item: jiliorite
+  amount: 357
+}
+requirements: [
+  jiliorite/1000
+]
+category: crafting
+research: fiorite-core-basic
+idleSound: respawning
+idleSoundVolume: 0.5
