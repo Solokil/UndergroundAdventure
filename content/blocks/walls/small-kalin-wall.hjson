@@ -2,7 +2,7 @@ name: Small Kalin Wall
 description: A wall made of kalin. A tier2 wall.
 buildCostMultiplier: 0.03
 type: Wall
-health: 10000
+health: 15000
 size: 1
 requirements: [
   kalin/25
