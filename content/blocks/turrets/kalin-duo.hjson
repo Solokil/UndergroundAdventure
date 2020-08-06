@@ -24,10 +24,10 @@ ammo: {
 	kalin:{
   
 type: BasicBulletType
-lifetime: 90
+lifetime: 60
 //Moove Area
 speed: 5
-damage: 1000
+damage: 1200
 hitSize: 6
 drawSize: 32
 drag: 0
@@ -60,8 +60,8 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 100
-splashDamageRadius: 4
+splashDamage: 500
+splashDamageRadius: 9
 incendAmount: 0
 incendSpread: 8
 incendChance: 10
