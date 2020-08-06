@@ -33,11 +33,11 @@ weapon: {
   //shoot barrel x offset default is 4
   width: 4
   //reload time in frame
-  reload: 25
+  reload: 60
   //visual weapon knockback. default is 1.5
   recoil: 1.5
   //amount of shoots per fire
-  shoots: 4
+  shoots: 2
   //for shooting in one weapon then another instead of both at the same time
   alternate: true
   targetDistance: 30
