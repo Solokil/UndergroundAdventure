@@ -1,0 +1,50 @@
+name: Discovering Kalin
+description: A place filled with a rare resource. Kalin! The most usable disrupted mineral on it's comon form
+startingItems:
+[
+  copper/400
+  lead/200
+  fiorite/2000
+  jiliorite/4000
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus
+loadout: fiorite-core-basic
+requirements: [
+  {
+    type: ZoneWave
+    zone: iron-mine
+    wave: 15
+  }
+  {
+    type: ZoneWave
+    zone: paradise-of-resources
+    wave: 10
+  }
+  {
+    type: Unlock
+    block: fiorite-core-basic
+  }  
+]
+   conditionWave: 10
+launchPeriod: 10 //use this only for maps that are ZoneWave Objective
+configureObjective: { // these four lines can be substituted by:
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: discovering-kalin
+   wave: 6
+}
+
+resources: [
+  copper
+  // if two bars are at the minery, it menas that the map does not have it
+  // my first mineral
+  // iron
+  lead
+  coal
+  sand
+  titanium
+  fiorite
+  jiliorite
+  kalin
+]
