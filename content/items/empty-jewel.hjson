@@ -1,0 +1,6 @@
+type: resource
+name: Empty Jewel
+description: A resource used to make jewels
+hardness: 1
+cost: 1
+color: 808080
