@@ -1,0 +1,79 @@
+
+  type: groundUnit
+  name: Kalin Basic
+  description: A unit that you do not want to fight against...
+  maxVelocity: 0.3
+  speed: 0.1
+  drag: 0.1
+  hitsize: 5
+  mass: 5.75
+  flying: false
+  health: 350000
+
+  weapon: {
+    name: kalin-blaster
+    length: 35
+    ignoreRotation: true
+    reload: 90
+    width: 3
+    alternate: true
+    recoil: 1.25
+    shake: 1
+    shots: 2
+    spacing: 6 //weapon until unity center distance
+    shotDelay: 20
+    ejectEffect: shellEjectSmall
+    targetDistance: 0
+
+   bullet: {
+
+type: BasicBulletType
+lifetime: 90
+//Moove Area
+speed: 5
+damage: 1000
+hitSize: 6
+drawSize: 32
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.5
+hitTiles: true
+status: freeing 
+statusDuration: 40
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 2 //001
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: wine
+        lifetime: 2700
+        speed: 0.1
+        keepVelocity: false
+        }
+splashDamage: 100
+splashDamageRadius: 4
+incendAmount: 0
+incendSpread: 8
+incendChance: 10
+bulletWidth: 7
+bulletHeight: 15
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: 722f37 // Color of front sprite.
+backColor: 722f37 // Color of back sprite.
+}
+  
+}
