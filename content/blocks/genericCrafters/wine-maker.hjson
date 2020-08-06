@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Wine Maker"
+description: "Makes wine from kalin... don't ask how..."
+liquidCapacity: 700
+health: 9700
+buildCostMultiplier: 0.1
+outputLiquid: {
+  liquid: wine
+  amount: 100
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  item: kalin
+}
+requirements: [
+  kalin/175
+]
+category: crafting
+research: kalin-market
+idleSound: respawning
+idleSoundVolume: 0.5
