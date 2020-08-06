@@ -13,10 +13,11 @@ hasItems: true
 craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
-  items: 
+  items: {
 items:[
     jiliorite/357
     ]
+}
 }
 requirements: [
   jiliorite/1000
