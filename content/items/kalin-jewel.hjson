@@ -1,0 +1,6 @@
+type: material
+name: Kalin Jewel
+description: A Jewel made from the hard process of kalin. Due to kalin's hard made process, it is pretty hard to make.
+hardness: 3
+cost: 3
+color: 863241 // light wine
