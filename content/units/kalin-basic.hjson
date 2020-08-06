@@ -47,7 +47,7 @@ reloadMultiplier: 1
 recoil: 0
 knockback: 0.5
 hitTiles: true
-status: freeing 
+status: freezing 
 statusDuration: 40
 collidesTiles: true
 collidesTeam: false
