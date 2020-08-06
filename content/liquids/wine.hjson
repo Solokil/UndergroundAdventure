@@ -1,0 +1,6 @@
+name: Wine
+description: If you have already done Lemon juice, why not prepare wine? where did it come from again?... It tastes good and is very cold!
+temperature: 0.008
+viscosity: 0.4
+effect: freezing
+color: 5e1224
