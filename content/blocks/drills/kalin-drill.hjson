@@ -1,1 +1,23 @@
 
+name: Kalin Drill
+description: A mini drill made with kalin. It can be boosted by wine.
+type: Drill
+size: 1
+tier: 6
+health: 5500
+drillTime: 60
+buildCostMultiplier: 0.5
+liquidBoostIntensity: 3
+consumes: {
+  liquid: {
+    liquid: wine
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  kalin/12
+]
+category: production
+research: fiorite-core-basic
