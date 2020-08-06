@@ -1,0 +1,6 @@
+type: material
+name: Jiliorite Jewel
+description: A Jewel made from the hard process of jiliorite.
+hardness: 1
+cost: 1
+color: 99edc3 //mint
