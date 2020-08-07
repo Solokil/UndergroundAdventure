@@ -1,0 +1,41 @@
+type: DoubleTurret
+name: Wine Missile Louncher
+description: A great defense that make a mess with wine. Have long range but only shoots kalin!
+health: 6050
+size: 2
+reload: 40
+range: 345
+maxAmmo: 50 //default is 30
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+buildCostMultiplier: 0.1
+rotatespeed: 12
+ammo: {
+	kalin:{
+  type: MissileBulletType
+  lifetime: 300
+  speed: 4
+  damage: 1450
+  splashDamageRadious: 10
+  splashDamage: 750
+  frontColor: 722f37 // Color of front sprite.
+  backColor: 722f37 
+  homingPower: 1
+  homingRange: 90
+  fragBullets: 3
+  ammoMultiplier: 10
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: wine
+    lifetime: 600
+    speed: 0.2
+    }
+}
+
+}
+requirements: [
+  kalin/110
+  jiliorite/75
+]
+category: turret
+research: kalin-duo
