@@ -1,0 +1,67 @@
+type: ArtilleryTurret
+name: Sniper Kalin Turret
+description: A sniper made out of kalin. Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
+health: 4400
+size: 2
+buildCostMultiplier: 0.3
+reload: 90
+range: 350
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0.7
+rotatespeed: 10
+targetAir: true
+ammo: {
+  
+  kalin: {
+    //move 6 world units per frame (very fast)
+    speed: 5.5
+    damage: 19705
+    bulletWidth: 9
+    bulletHeight: 19
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    }
+  iron: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 395
+    bulletWidth: 7
+    bulletHeight: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  copper: {
+  speed: 3
+  damage: 100
+  bulletWidth: 9
+  bulletHeight: 11
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+  lead: {
+  speed: 4.5
+  damage: 150
+  bulletWidth: 10
+  bulletHeight: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+  scrap: {
+  speed: 2
+  damage: 300
+  bulletWidth: 10
+  bulletHeight: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}
+requirements: [
+  iron/75
+  lead/40
+]
+category: turret
+research: scatter
