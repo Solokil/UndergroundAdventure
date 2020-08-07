@@ -62,7 +62,7 @@ backColor: 722f37
   }
 }
 requirements: [
-  kalin/75
+  kalin/115
   iron/40
 ]
 category: turret
