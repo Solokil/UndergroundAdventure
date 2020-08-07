@@ -5,7 +5,7 @@ health: 4400
 size: 2
 buildCostMultiplier: 0.3
 reload: 90
-range: 350
+range: 390
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0.7
 rotatespeed: 10
@@ -20,6 +20,8 @@ ammo: {
     bulletHeight: 19
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
+frontColor: 722f37 // Color of front sprite.
+backColor: 722f37 
     }
   iron: {
     //move 6 world units per frame (very fast)
@@ -60,8 +62,8 @@ ammo: {
   }
 }
 requirements: [
-  iron/75
-  lead/40
+  kalin/75
+  iron/40
 ]
 category: turret
-research: scatter
+research: kalin-duo
