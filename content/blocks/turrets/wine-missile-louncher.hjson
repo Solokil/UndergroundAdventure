@@ -16,7 +16,7 @@ ammo: {
   lifetime: 300
   speed: 4
   damage: 1450
-  splashDamageRadious: 10
+  splashDamageRadious: 100
   splashDamage: 750
   frontColor: 722f37 // Color of front sprite.
   backColor: 722f37 
