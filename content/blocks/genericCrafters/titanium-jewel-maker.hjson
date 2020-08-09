@@ -1,0 +1,32 @@
+name: Titanium jewel maker
+type: GenericCrafter
+description: Makes Titanium jewel by putting titanium into an empty jewel!
+size: 2
+solid: true
+hasItems: true
+hasPower: false
+itemCapacity: 30
+buildCostMultiplier: 0.05
+
+craftTime: 20
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    titanium/100
+    silicon/10
+]
+
+consumes: {
+    items: {
+        items: [
+            empty-jewel/1
+            titanium/10
+        ]
+    }
+}
+
+outputItem: titanium-jewel/1
+
+category: crafting
+research: jiliorite-jewel-maker
