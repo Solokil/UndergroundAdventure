@@ -1,5 +1,5 @@
 name: Kalin Basic Factory
-description: A very slow wrath fighter. Easy and simple to make, and remarke me saying again: VERY SLOW!
+description: A basic unit factory... But no... Makes kalin basic units!
 type: UnitFactory
 unitType: kalin-basic
 buildCostMultiplier: 0.005
