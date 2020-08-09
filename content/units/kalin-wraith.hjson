@@ -27,7 +27,7 @@ targetAir: true
 
 weapon: {
     //to find weapon sprite
-  name: iron-blaster
+  name: kalin-blaster
   //shoot barrel y offset
   length: 1.5
   //shoot barrel x offset default is 4
