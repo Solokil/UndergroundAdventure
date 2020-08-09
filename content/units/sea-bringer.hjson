@@ -25,6 +25,12 @@ maxVelocity: 1 // default is 5
 engineOffset: 10.5
 targetAir: true
 
+immunities: [
+  corroded
+  melting
+  burning
+]
+
 weapon: {
     //to find weapon sprite
   name: water-throw
