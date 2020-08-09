@@ -65,8 +65,8 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 0
-splashDamageRadius: -1
+splashDamage: 10
+splashDamageRadius: 32
 incendAmount: 0
 incendSpread: 8
 incendChance: 3
