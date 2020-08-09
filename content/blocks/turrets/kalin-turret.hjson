@@ -1,6 +1,6 @@
 type: DoubleTurret
-name: Kalin Duo
-description: A duo, but made of titanium. Great if you have titanium to waste.
+name: Kalin turret
+description: A little bit better than kalin duo.
 health: 7500
 size: 1
 reload: 60
