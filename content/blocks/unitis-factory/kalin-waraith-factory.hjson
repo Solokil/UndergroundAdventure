@@ -1,0 +1,22 @@
+name: Kalin Wraith Factory
+description: A very slow wrath fighter. Easy and simple to make. And will makes your enemies break apart!
+type: UnitFactory
+unitType: kalin-wraith
+buildCostMultiplier: 0.005
+health: 55000
+size: 2
+produceTime: 600
+maxSpawn: 3
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      kalin/50
+    ]
+  }
+}
+category: units
+research: kalin-basic-factory
+requirements: [
+  kalin/650
+]
