@@ -1,6 +1,6 @@
 type: flyingUnit
 name: Kalin Wraith
-description: Very slow but will destroy a lot of things.
+description: Very slow but will destroy a lot of things with an explosion shoot.
 
 //for units pussh and space pass
 //hitsize // default = 7
@@ -82,8 +82,8 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 0
-splashDamageRadius: -1
+splashDamage: 300
+splashDamageRadius: 5
 incendAmount: 0
 incendSpread: 8
 incendChance: 10
