@@ -23,13 +23,13 @@ requirements: [
 consumes: {
     items: {
         items: [
-            titanium/1
-            silicon/2
+            titanium/2
+            silicon/5
         ]
     }
 }
 
-outputItem: empty-jewel/3
+outputItem: empty-jewel/10
 
 category: crafting
 research: hardened-silicon-smelter
