@@ -10,6 +10,11 @@ description: A flying unit that spread moltem Iron everywhere.
 flying: true
 health: 4750
 
+immunities: [
+  corroded
+  melting
+  burning
+]
 
 //Moove Area
 speed: 0.12 //default is 0.4
