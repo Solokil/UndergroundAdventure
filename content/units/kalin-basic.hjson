@@ -10,6 +10,12 @@
   flying: false
   health: 350000
 
+immunities: [
+  corroded
+  melting
+  burning
+]
+
   weapon: {
     name: kalin-blaster
     length: 5.7
