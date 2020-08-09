@@ -1,1 +1,35 @@
 
+name: Empty-jewel-crafter
+type: GenericCrafter
+description: A empty jewel crafter. Put items on jewels so they can be used for something!
+size: 3
+solid: true
+hasItems: true
+hasPower: false
+itemCapacity: 30
+buildCostMultiplier: 0.05
+
+craftTime: 120
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    jilifior-alloy/100
+    silicon/200
+    hardened-iron/50
+    titanium/100
+]
+
+consumes: {
+    items: {
+        items: [
+            titanium/1
+            silicon/2
+        ]
+    }
+}
+
+outputItem: empty-jewel/3
+
+category: crafting
+research: hardened-silicon-smelter
