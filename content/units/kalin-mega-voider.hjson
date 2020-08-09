@@ -1,0 +1,80 @@
+type: groundUnit
+  name: Kalin mega voider
+  description: A well armored unit equiped with a mid range void weapon. don't spend troops trying to handle it. When it appear you should give up...
+  maxVelocity: 1.1
+  speed: 0.4
+  drag: 0.05
+  hitsize: 16
+  mass: 3.75
+  flying: false
+  health: 8575000
+  // range: 72
+
+  weapon: {
+    name: kalin-blaster
+    length: 45
+    ignoreRotation: true
+    reload: 360
+    width: 0
+    alternate: false
+    recoil: 0.25
+    shake: 0.05
+    shots: 20
+    spacing: 16 //weapon until unity center distance
+    shotDelay: 30
+    ejectEffect: shellEjectSmall
+    targetDistance: 0
+
+   bullet: {
+
+type: BasicBulletType
+lifetime: 90
+//Moove Area
+speed: 1.3
+damage: 17500
+hitSize: 32
+drawSize: 256
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.5
+hitTiles: true
+status: melting 
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 0 //001
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: wine
+        lifetime: 2700
+        speed: 0.1
+        keepVelocity: false
+        }
+splashDamage: 2930
+splashDamageRadius: 32
+incendAmount: 0
+incendSpread: 8
+incendChance: 3
+bulletWidth: 64
+bulletHeight: 64
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+bulletSprite: underground-adventure-ruge-circle
+}
+  
+}
