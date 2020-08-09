@@ -10,6 +10,14 @@ type: groundUnit
   health: 8575000
   // range: 72
 
+
+immunities: [
+  corroded
+  melting
+  burning
+]
+
+
   weapon: {
     name: kalin-blaster
     length: 45
