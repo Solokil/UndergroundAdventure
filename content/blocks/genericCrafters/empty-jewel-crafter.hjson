@@ -9,7 +9,7 @@ hasPower: false
 itemCapacity: 30
 buildCostMultiplier: 0.05
 
-craftTime: 120
+craftTime: 10
 craftEffect: smeltsmoke
 flameColor: ffef99
 
