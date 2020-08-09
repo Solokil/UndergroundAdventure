@@ -10,6 +10,12 @@ description: An advanced building drone, worth the patient to build it. It has a
 flying: true
 health: 2500
 
+immunities: [
+  corroded
+  melting
+  burning
+]
+
 builPower: 0
 mineSpeed: 3
 drillPower: -1
