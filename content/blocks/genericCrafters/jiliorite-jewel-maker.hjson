@@ -1,0 +1,33 @@
+
+name: Jiliorite jewel maker
+type: GenericCrafter
+description: Makes Jiliorite jewel by putting jiliorite into empty jewel!
+size: 2
+solid: true
+hasItems: true
+hasPower: false
+itemCapacity: 30
+buildCostMultiplier: 0.05
+
+craftTime: 20
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    jiliorite/100
+    silicon/10
+]
+
+consumes: {
+    items: {
+        items: [
+            empty-jewel/1
+            jiliorite/10
+        ]
+    }
+}
+
+outputItem: jiliorite-jewel/1
+
+category: crafting
+research: empty-jewel-crafter
