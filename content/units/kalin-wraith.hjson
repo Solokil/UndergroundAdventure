@@ -25,6 +25,12 @@ maxVelocity: 0.3 // default is 5
 engineOffset: 6.0
 targetAir: true
 
+immunities: [
+  corroded
+  melting
+  burning
+]
+
 weapon: {
     //to find weapon sprite
   name: kalin-blaster
