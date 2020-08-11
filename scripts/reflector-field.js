@@ -11,7 +11,7 @@
 		}else 
                 {
                         this.super$handleBulletHit(entity, bullet);
-                }*/
+                }*//*
 	}
 });
 
