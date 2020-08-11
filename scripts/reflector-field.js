@@ -1,4 +1,4 @@
-const refle = extendContent(UnitType, "reflector", {
+/*const refle = extendContent(UnitType, "reflector", {
 	handleBulletHit(entity, bullet){
 		
 		/*
@@ -17,3 +17,4 @@ const refle = extendContent(UnitType, "reflector", {
 
 refle.reflectChance = 0.99;
 refle.lightningLength = 10;
+/*
