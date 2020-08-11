@@ -30,4 +30,4 @@ consumes: {
 outputItem: jiliorite-jewel/1
 
 category: crafting
-research: empty-jewel-crafter
+research: jiliorite-jewel-maker
