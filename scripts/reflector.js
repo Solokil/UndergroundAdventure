@@ -14,4 +14,4 @@ const refle = extendContent(UnitType, "reflector", {
 });
 
 refle.reflectChance = 0.99;
-lightningLength = 10;
+refle.lightningLength = 10;
