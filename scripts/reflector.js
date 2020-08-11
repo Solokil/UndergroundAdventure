@@ -1,6 +1,6 @@
 const refle = extendContent(Unit, "reflector", {
 	handleBulletHit(entity, bullet){
-		this.super$handleBulletHit(entity, bullet);
+		
 		
 		const vec = new Vec2();
 		
@@ -8,10 +8,9 @@ const refle = extendContent(Unit, "reflector", {
 		
 		if(Mathf.chance(this.reflectChance)){
 			Bullet.create(entity.getTeam(), Color.valueOf("a9d8ff"), this.lightningDamage, vec.x + entity.x, vec.y + entity.y, bullet.rot() + 180, this.lightningLength + Mathf.random(0, 4));
-		}
+		}else 
+                {this.super$handleBulletHit(entity, bullet);}
 	}
 });
 
-refle.reflectChance = 0.1;
-refle.lightningDamage = 17;
-refle.lightningLength = 15;
+refle.reflectChance = 0.99;
