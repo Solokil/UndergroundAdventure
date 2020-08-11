@@ -1,4 +1,4 @@
-const refle = extendContent(Unit, "reflector", {
+const refle = extendContent(UnitType, "reflector", {
 	handleBulletHit(entity, bullet){
 		
 		
