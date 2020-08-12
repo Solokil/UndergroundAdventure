@@ -1,7 +1,7 @@
 
 type: flyingUnit
-name: Reflector
-description: take care handling this unit. It reflects 99% of his hits...
+name: AutoHe
+description: take care handling this unit. It heals himself a and increases damage over time...
 
 //for units pussh and space pass
 //hitsize // default = 7
@@ -9,7 +9,7 @@ description: take care handling this unit. It reflects 99% of his hits...
 //hitsizeTile // default = 4
 
 flying: true
-health: 255
+health: 1000000
 
 
 //Moove Area
