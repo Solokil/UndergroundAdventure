@@ -1,0 +1,53 @@
+name: Rainbow Desert
+description: A place filled with resources, it's formation makes seems like a rainbow.
+startingItems:
+[
+  copper/1000
+  lead/1000
+  fiorite/2000
+  jiliorite/4000
+  kalin/100
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus
+loadout: fiorite-core-basic
+requirements: [
+  {
+    type: ZoneWave
+    zone: discovering-kalin
+    wave: 25
+  }
+  {
+    type: Launched
+    zone: 
+  }
+  {
+    type: Unlock
+    block: jewels-double-turret
+  }  
+]
+   conditionWave: 5
+launchPeriod: 6 //use this only for maps that are ZoneWave Objective
+configureObjective: { // these four lines can be substituted by:
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: rainbow-desert
+   wave: 10
+}
+
+resources: [
+  copper
+  // if two bars are at the minery, it menas that the map does not have it
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  example-mod-silver
+  example-mod-golden-powder
+  titanium
+  thorium
+  fiorite
+  jiliorite
+  kalin
+]
