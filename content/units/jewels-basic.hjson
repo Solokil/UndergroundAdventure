@@ -23,14 +23,14 @@ immunities: [
     name: jewels-weapon
     length: 0
     ignoreRotation: true
-    reload: 480
-    width: 20
+    reload: 40
+    width: 0
     alternate: true
     recoil: 3.5
     shake: 2
-    shots: 20
-    spacing: 0 //weapon until unity center distance
-    shotDelay: 30
+    shots: 1
+    spacing:  0 //weapon until unity center distance
+    shotDelay: 40
     ejectEffect: shellEjectSmall
     targetDistance: 0
 
@@ -40,7 +40,7 @@ type: BasicBulletType
 lifetime: 90
 //Moove Area
 speed: 4.3
-damage: 275000
+damage: 575000
 hitSize: 8
 drawSize: 12
 drag: 0
@@ -74,8 +74,8 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 75300
-splashDamageRadius: 32
+splashDamage: 95300
+splashDamageRadius: 42
 incendAmount: 3
 incendSpread: 12
 incendChance: 15
