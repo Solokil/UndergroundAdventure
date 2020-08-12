@@ -1,0 +1,72 @@
+type: DoubleTurret
+name: Jewels Double Turret
+description: A Double turret with the power of jewels.
+health: 440000
+size: 2
+buildCostMultiplier: 0.1
+reload: 60
+range: 550
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0.7
+rotatespeed: 12
+targetAir: true
+ammo: {
+  
+  kalin: {
+    //move 6 world units per frame (very fast)
+    speed: 5.5
+    damage: 19705
+    bulletWidth: 9
+    bulletHeight: 19
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff
+    }
+  iron: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 395
+    bulletWidth: 7
+    bulletHeight: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  copper: {
+  speed: 3
+  damage: 100
+  bulletWidth: 9
+  bulletHeight: 11
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+  lead: {
+  speed: 4.5
+  damage: 150
+  bulletWidth: 10
+  bulletHeight: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+  scrap: {
+  speed: 2
+  damage: 300
+  bulletWidth: 10
+  bulletHeight: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}
+requirements: [
+  fiorite-jewel/1
+  jiliorite-jewel/1
+  titanium-jewel/1
+  hardened-titanium-jewel/1
+  kalin-jewel/1
+]
+category: turret
+research: kalin-duo
