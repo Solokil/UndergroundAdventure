@@ -26,7 +26,7 @@ backColor: ffffff
   iron: {
     //move 6 world units per frame (very fast)
     speed: 6
-    damage: 395
+    damage: 39500
     bulletWidth: 7
     bulletHeight: 16
     shootEffect: shootSmall
@@ -35,7 +35,7 @@ backColor: ffffff
   }
   copper: {
   speed: 3
-  damage: 100
+  damage: 10000
   bulletWidth: 9
   bulletHeight: 11
   shootEffect: shootSmall
@@ -44,21 +44,12 @@ backColor: ffffff
   }
   lead: {
   speed: 4.5
-  damage: 150
+  damage: 15000
   bulletWidth: 10
   bulletHeight: 13
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 2
-  }
-  scrap: {
-  speed: 2
-  damage: 300
-  bulletWidth: 10
-  bulletHeight: 15
-  shootEffect: shootSmall
-  smokeEffect: shootSmallSmoke
-  ammoMultiplier: 1
   }
 }
 requirements: [
@@ -69,4 +60,4 @@ requirements: [
   kalin-jewel/1
 ]
 category: turret
-research: kalin-duo
+research: kalin-turret
