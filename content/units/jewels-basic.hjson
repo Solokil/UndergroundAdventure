@@ -24,7 +24,7 @@ immunities: [
     length: 0
     ignoreRotation: true
     reload: 40
-    width: 0
+    width: 8
     alternate: true
     recoil: 3.5
     shake: 2
