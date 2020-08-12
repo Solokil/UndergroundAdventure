@@ -19,7 +19,7 @@ requirements: [
   }
   {
     type: Launched
-    zone: 
+    zone: narrow-labyrinth
   }
   {
     type: Unlock
