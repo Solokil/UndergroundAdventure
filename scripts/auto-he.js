@@ -2,8 +2,8 @@ const autoHe = extendContent(UnitType, "auto-he", {
 	update(){
 		this.super$update();
 			
-		this.health += this.weapon.bullet.damage;
-		this.weapon.bullet.damage += 1;
+		this.health += this.heal;
+		this.heal += 3;
 		
 	}
 			
@@ -11,3 +11,5 @@ const autoHe = extendContent(UnitType, "auto-he", {
 	
 });
 
+autoHe.health = 1000000;
+autoHe.heal = 100;
