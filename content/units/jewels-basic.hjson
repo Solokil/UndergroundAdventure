@@ -25,12 +25,12 @@ immunities: [
     ignoreRotation: true
     reload: 480
     width: 20
-    alternate: false
+    alternate: true
     recoil: 3.5
     shake: 2
-    shots: 4
+    shots: 20
     spacing: 0 //weapon until unity center distance
-    shotDelay: 45
+    shotDelay: 30
     ejectEffect: shellEjectSmall
     targetDistance: 0
 
@@ -40,7 +40,7 @@ type: BasicBulletType
 lifetime: 90
 //Moove Area
 speed: 4.3
-damage: 175000
+damage: 275000
 hitSize: 8
 drawSize: 12
 drag: 0
@@ -74,11 +74,11 @@ collides: true
         speed: 0.1
         keepVelocity: false
         }
-splashDamage: 29300
-splashDamageRadius: 16
-incendAmount: 1
+splashDamage: 75300
+splashDamageRadius: 32
+incendAmount: 3
 incendSpread: 12
-incendChance: 5
+incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
