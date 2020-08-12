@@ -20,8 +20,8 @@ immunities: [
 
 
   weapon: {
-    name: kalin-blaster
-    length: 10
+    name: jewels-weapon
+    length: 0
     ignoreRotation: true
     reload: 480
     width: 20
@@ -29,7 +29,7 @@ immunities: [
     recoil: 3.5
     shake: 2
     shots: 4
-    spacing: 24 //weapon until unity center distance
+    spacing: 0 //weapon until unity center distance
     shotDelay: 45
     ejectEffect: shellEjectSmall
     targetDistance: 0
