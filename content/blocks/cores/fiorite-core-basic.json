@@ -24,4 +24,5 @@
 	],
   "category": "effect",
   "research": "tier2",
+  "buildVisibility": "debugOnly",
 }
