@@ -1,0 +1,28 @@
+name: Fragments Cave
+description: This Underground Cave is different... Seams that the outpost in there has use all the resources that usually existed in there... It will bu tuff to take down the enemy this time!
+startingItems:
+[
+  metaglass/4000
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
+// loadout: advancedShard
+requirements: [
+  {
+    type: ZoneWave
+    zone: rainbow-desert
+    wave: 30
+ }
+ // {
+ //   type: Unlock
+ //   block: item
+ // }
+]
+configureObjective: {
+   type: Launched
+   zone: fragments-cave
+}
+
+resources: [
+  glass-fragment
+]
