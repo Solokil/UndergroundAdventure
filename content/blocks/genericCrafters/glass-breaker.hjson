@@ -23,6 +23,6 @@ requirements: [
   metaglass/30
 ]
 category: crafting
-research: glass-reconstrutor
+research: glass-reconstructor
 idleSound: respawning
 idleSoundVolume: 0.5
