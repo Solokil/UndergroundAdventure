@@ -13,7 +13,11 @@ hasItems: true
 craftTime: 90
 updateEffect: smeltsmoke
 consumes: {
-  item: metaglass/1
+  items: {
+        items: [
+            metaglass/1
+        ]
+    }
 }
 requirements: [
   metaglass/30
