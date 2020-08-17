@@ -13,7 +13,11 @@ hasItems: true
 craftTime: 90
 updateEffect: smeltsmoke
 consumes: {
-  item: glass-fragment/5
+  items: {
+        items: [
+            glass-fragment/5
+        ]
+    }
 }
 requirements: [
   glass-fragment/25
