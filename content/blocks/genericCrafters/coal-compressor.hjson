@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Sand from Dirty
+name: Coal compressor
 description: Compress coal to makes sand. Uses low energy.
 size: 1
 hasPower: true
