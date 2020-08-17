@@ -8,7 +8,13 @@ craftTime: 60
 craftEffect: smeltsmoke
 consumes: {
   power: 0.1
-  sand/2
+  items:
+{
+  items:[
+    sand/2
+    ]
+  }
+}
 }
 outputItem: sand/1
 requirements: [
