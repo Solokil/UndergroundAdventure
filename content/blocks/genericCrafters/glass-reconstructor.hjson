@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: "Glass Reconstructor"
+description: "Reconstruct Metaglass with glass fragments"
+outputItem: {
+  item: metaglass
+  amount: 2
+}
+buildCostMultiplier: 0.3
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+  item: glass-fragment/5
+}
+requirements: [
+  glass-fragment/25
+]
+category: crafting
+research: kalin-drill
+idleSound: respawning
+idleSoundVolume: 0.5
