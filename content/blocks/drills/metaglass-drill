@@ -1,0 +1,21 @@
+name: Metaglass Drill
+description: A drill made of metaglass. An important drill for campaign.
+type: Drill
+size: 1
+tier: 2
+buildCostMultiplier: 0.8
+drillTime: 200
+liquidBoostIntensity: 2
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  metaglass/4
+]
+category: production
+research: kalin-drill
