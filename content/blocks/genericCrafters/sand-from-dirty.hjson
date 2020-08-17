@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: Sand from Dirty
+description: Mix the dirty from the ground into consumable sand.
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 30
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.1
+}
+outputItem: sand/1
+requirements: [
+  copper/80
+  lead/40
+]
+category: production
+research: titanium-pressurizer
+idleSound: respawning
+idleSoundVolume: 0.2
