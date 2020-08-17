@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Sand from Dirty
+description: Compress coal to makes sand. Uses low energy.
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.1
+  sand/2
+}
+outputItem: sand/1
+requirements: [
+  copper/100
+  lead/50
+]
+category: production
+research: sand-from-dirty
+idleSound: respawning
+idleSoundVolume: 0.2
