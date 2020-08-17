@@ -17,8 +17,8 @@ consumes: {
 }
 
 results:  [
-  lead/2
-  cooper/1
+  lead/1
+  copper/2
   ]
   buildCostMultiplier: 0.8
 requirements: [
