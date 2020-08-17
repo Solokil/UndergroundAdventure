@@ -1,0 +1,6 @@
+type: material
+name: glass-fragment
+description: A fragment of a metaglass.
+hardness: 1
+cost: 1
+color: 7da0b5
