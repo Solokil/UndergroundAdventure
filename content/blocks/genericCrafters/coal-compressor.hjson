@@ -15,12 +15,12 @@ consumes: {
     ]
   }
 }
-outputItem: sand/1
+outputItem: coal/1
 requirements: [
   copper/100
   lead/50
 ]
-category: production
+category: crafting
 research: sand-from-dirty
 idleSound: respawning
 idleSoundVolume: 0.2
