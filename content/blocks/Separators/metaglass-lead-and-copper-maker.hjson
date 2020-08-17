@@ -5,7 +5,7 @@ size: 2
 hasPower: false
 hasItems: true
 hasLiquids: true
-craftTime: 3
+craftTime: 20
 craftEffect: smeltsmoke
 consumes: {
   liquid:{
@@ -22,7 +22,7 @@ results:  [
   ]
   buildCostMultiplier: 0.8
 requirements: [
-  metaglass/10
+  metaglass/25
 ]
 category: production
 research: metaglass-drill
