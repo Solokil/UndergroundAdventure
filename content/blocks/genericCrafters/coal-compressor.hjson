@@ -15,7 +15,6 @@ consumes: {
     ]
   }
 }
-}
 outputItem: sand/1
 requirements: [
   copper/100
