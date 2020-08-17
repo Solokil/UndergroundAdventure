@@ -1,0 +1,16 @@
+type: SolarGenerator
+name: Glass Stone Block
+buildCostMultiplier: 0.3
+description: A massive block, made of glass (a variation of red stone... but works just like it).
+hasLiquids: false
+health: 200
+size: 1
+powerProduction: 0.3
+consumes: {
+}
+requirements: [
+   glass-fragment/100
+   metaglass/20
+]
+category: power
+research: glass-breaker
