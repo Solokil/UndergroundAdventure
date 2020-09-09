@@ -1,0 +1,28 @@
+name: Kalin Basic Factory
+description: Makes jewels basic units.. well they are made with jewels... So they aren't basic...
+type: UnitFactory
+unitType: jewels-basic
+buildCostMultiplier: 0.005
+health: 550000
+size: 3
+produceTime: 750
+maxSpawn: 1
+consumes: {
+  power: 1
+  items: {
+    items: [
+      fiorite-jewel/3
+      jiliorite-jewel-/3
+      titanium-jewel/3
+      hardened-titanium-jewel/3
+      kalin-jewel/3
+      silicon/100
+      lead/2000
+    ]
+  }
+}
+category: units
+research: kalin-basic-factory
+requirements: [
+  morning-star-jewel/200
+]
