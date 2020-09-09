@@ -1,0 +1,32 @@
+name: Morning Star jewel maker
+type: GenericCrafter
+description: Makes Morning Star jewel by putting morning star alloy into an empty jewel!
+size: 2
+solid: true
+hasItems: true
+hasPower: false
+itemCapacity: 30
+buildCostMultiplier: 0.05
+
+craftTime: 20
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    morning-star-alloy/100
+    silicon/10
+]
+
+consumes: {
+    items: {
+        items: [
+            empty-jewel/1
+            morning-star-alloy/10
+        ]
+    }
+}
+
+outputItem: morning-star-jewel/1
+
+category: crafting
+research: kalin-jewel-maker
