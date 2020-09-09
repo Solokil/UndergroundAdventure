@@ -1,0 +1,41 @@
+name: Morning Star Constructor
+type: GenericCrafter
+description: This Crafter makes morning star alloy... A very hard alloy to produce...
+size: 3
+solid: true
+hasItems: true
+hasPower: false
+itemCapacity: 50
+buildCostMultiplier: 0.01
+
+craftTime: 10
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    kalin-jewel/1
+    fiorite-jewel/5
+    hardened-titanium-jewel/1
+    jiliorite-jewel/5
+    titanium-jewel/3
+]
+
+consumes: {
+    power: 2
+    items: {
+        items: [
+            kalin-jewel/1
+            fiorite-jewel/5
+            hardened-titanium-jewel/1
+            jiliorite-jewel/5
+            titanium-jewel/3
+            surge-alloy/4
+            playstation/5
+        ]
+    }
+}
+
+outputItem: morning-star-alloy/15
+
+category: crafting
+research: kalin-jewel-maker
