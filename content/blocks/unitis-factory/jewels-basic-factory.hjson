@@ -2,7 +2,7 @@ name: Kalin Basic Factory
 description: Makes jewels basic units.. well they are made with jewels... So they aren't basic...
 type: UnitFactory
 unitType: jewels-basic
-buildCostMultiplier: 0.005
+buildCostMultiplier: 0.0005
 health: 550000
 size: 3
 produceTime: 750
@@ -22,7 +22,7 @@ consumes: {
   }
 }
 category: units
-research: kalin-basic-factory
+research: kalin-wraith-factory
 requirements: [
   morning-star-jewel/200
 ]
