@@ -1,0 +1,6 @@
+type: material
+name: Morning Star Alloy
+description: An alloy that is very hard to make... VERY HARD!
+hardness: 5
+cost: 5
+color: f6f6f6
