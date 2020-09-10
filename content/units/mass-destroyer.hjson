@@ -80,9 +80,8 @@ collides: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
     fragBullets: 5 //001
-    fragBullet: {
-        lightning
-        }
+    fragBullet: lightning
+        
 splashDamage: 15300
 splashDamageRadius: 22
 incendAmount: 3
