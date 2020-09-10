@@ -1,0 +1,55 @@
+type: hoverUnit
+name: Mass Destroyer
+description: It is possible to defeat this unit... Believe me...
+
+//for units pussh and space pass
+hitsize: 50
+//for hitbulletsize
+hitsizeTile: 40
+
+flying: true
+health: 9999999999
+
+
+//Moove Area
+speed: 0.005 //default is 0.4
+rotatespeed: 0.05 //default is 0.2
+range: 160
+baseRotateSpeed: 0.015 //default is 0.1
+mass: 30 //default is 1
+maxVelocity: 0.1 // default is 5
+
+
+//Weapon Stuff for shooting whatever
+
+engineOffset: 6.0
+targetAir: true
+
+weapon: {
+    //to find weapon sprite
+  name: null
+  //shoot barrel y offset
+  length: 3.5
+  //shoot barrel x offset default is 4
+  width: 4
+  //reload time in frame
+  reload: 5
+  //visual weapon knockback. default is 1.5
+  recoil: 0
+  //amount of shoots per fire
+  shoots: 10
+  //for shooting in one weapon then another instead of both at the same time
+  alternate: false
+  targetDistance: 10
+  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
+  // the start crhome wrath example was lightning
+  bullet: lightning
+
+
+  //sprites:
+  //[
+    //<name>
+    //<name>-leg
+    //<name>-base
+  //]
+}
