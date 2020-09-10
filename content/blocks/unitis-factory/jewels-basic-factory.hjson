@@ -12,7 +12,7 @@ consumes: {
   items: {
     items: [
       fiorite-jewel/3
-      jiliorite-jewel-/3
+      jiliorite-jewel/3
       titanium-jewel/3
       hardened-titanium-jewel/3
       kalin-jewel/3
