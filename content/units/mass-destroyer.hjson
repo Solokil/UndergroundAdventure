@@ -13,11 +13,11 @@ health: 99999999999
 
 //Moove Area
 speed: 0.001 //default is 0.4
-rotatespeed: 0.002 //default is 0.2
+rotatespeed: 0.00001 //default is 0.2
 range: 0
 baseRotateSpeed: 0.015 //default is 0.1
 mass: 30 //default is 1
-maxVelocity: 0.1 // default is 5
+maxVelocity: 0.03 // default is 5
 
 
 //Weapon Stuff for shooting whatever
