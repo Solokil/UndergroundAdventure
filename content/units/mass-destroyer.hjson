@@ -1,4 +1,4 @@
-type: hoverUnit
+type: flyingUnit
 name: Mass Destroyer
 description: It is possible to defeat this unit... Believe me...
 
@@ -8,13 +8,13 @@ hitsize: 50
 hitsizeTile: 40
 
 flying: true
-health: 9999999999
+health: 99999999999
 
 
 //Moove Area
-speed: 0.005 //default is 0.4
-rotatespeed: 0.05 //default is 0.2
-range: 160
+speed: 0.001 //default is 0.4
+rotatespeed: 0.002 //default is 0.2
+range: 0
 baseRotateSpeed: 0.015 //default is 0.1
 mass: 30 //default is 1
 maxVelocity: 0.1 // default is 5
@@ -34,6 +34,7 @@ immunities: [
 
 
   weapon: {
+    lengthRand: 20
     name: null
     length: 0
     ignoreRotation: true
@@ -41,17 +42,17 @@ immunities: [
     width: 8
     alternate: true
     recoil: 0
-    shake: 2
+    shake: 20
     shots: 10
-    spacing:  0 //weapon until unity center distance
+    spacing: 5
     shotDelay: 2
     ejectEffect: shellEjectSmall
-    targetDistance: 0
+    targetDistance: 160
 
    bullet: {
 
 type: BasicBulletType
-lifetime: 60
+lifetime: 70
 //Moove Area
 speed: 2.3
 damage: 25000
@@ -80,7 +81,7 @@ collides: true
     fragVelocityMin: 0.1
     fragVelocityMax: 0.5
     fragBullets: 5 //001
-    fragBullet: lightning
+    fragBullet: meltdown Laser
         
 splashDamage: 15300
 splashDamageRadius: 22
