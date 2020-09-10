@@ -25,25 +25,78 @@ maxVelocity: 0.1 // default is 5
 engineOffset: 6.0
 targetAir: true
 
-weapon: {
-    //to find weapon sprite
-  name: null
-  //shoot barrel y offset
-  length: 3.5
-  //shoot barrel x offset default is 4
-  width: 4
-  //reload time in frame
-  reload: 5
-  //visual weapon knockback. default is 1.5
-  recoil: 0
-  //amount of shoots per fire
-  shoots: 10
-  //for shooting in one weapon then another instead of both at the same time
-  alternate: false
-  targetDistance: 10
-  //bullet types can be found at built-in Bullets section at https://mindustrygame.github.io/wiki/modding/  
-  // the start crhome wrath example was lightning
-  bullet: lightning
+immunities: [
+  corroded
+  melting
+  burning
+  freezing
+]
+
+
+  weapon: {
+    name: null
+    length: 0
+    ignoreRotation: true
+    reload: 60
+    width: 8
+    alternate: true
+    recoil: 0
+    shake: 2
+    shots: 10
+    spacing:  0 //weapon until unity center distance
+    shotDelay: 2
+    ejectEffect: shellEjectSmall
+    targetDistance: 0
+
+   bullet: {
+
+type: BasicBulletType
+lifetime: 60
+//Moove Area
+speed: 2.3
+damage: 25000
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: true
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitSound: null
+inaccuracy: 3.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0
+hitTiles: true
+status: melting 
+statusDuration: 100
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 5 //001
+    fragBullet: {
+        lightning
+        }
+splashDamage: 15300
+splashDamageRadius: 22
+incendAmount: 3
+incendSpread: 12
+incendChance: 15
+bulletWidth: 5
+bulletHeight: 5
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: 0000ff // Color of front sprite.
+backColor: 0000ff // Color of back sprite.
+bulletSprite: underground-adventure-ruge-circle
+}
+  
+}
 
 
   //sprites:
