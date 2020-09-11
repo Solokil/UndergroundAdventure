@@ -52,7 +52,7 @@ immunities: [
    bullet: {
 
 type: BasicBulletType
-lifetime: 70
+lifetime: 115
 //Moove Area
 speed: 2.3
 damage: 25000
