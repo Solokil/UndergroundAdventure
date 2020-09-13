@@ -1,0 +1,27 @@
+{
+	"name": "Fiorite Core Basic",
+	"description": "A Core made from fiorite with large capacity and low size. 5000 health and 12000 capacity",
+	"type": "CoreBlock",
+	"health": 500000,
+	"breakable": true,
+	"destructible": true,
+	"size": 5,
+	"itemCapacity": 90000,
+	"unloadable": true,
+	"requirements": [
+	    {
+			"item": "fiorite",
+			"amount": 1000
+		},
+		{
+			"item": "morning-star-alloy",
+			"amount": 800
+		},
+		{
+			"item": "morning-star-jewel",
+			"amount": 100
+		}
+	],
+  "category": "effect",
+  "research": "tier2",
+}
