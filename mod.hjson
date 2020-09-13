@@ -1,6 +1,6 @@
 name: "underground-adventure"
 displayName: "[gold]Solokil [red]Underground Adventure" //what displays in the mod selection menu
 author: "Solokil"
-description: "A simple mod. Adds[green] new turrets[] and new[red] ores.[] (as each other)\n[]this mod theme is[red] underground[] quests with[green] disrupted minerals.[]"
+description: "Requires [blue]Anuken/ExampleMod[] (I'm working on not requiring it).\n[]this mod theme is[red] underground[] quests with[green] disrupted minerals and strong [red]enemies.[]/n"
 version: "1.0"
 minGameVersion: "103"
