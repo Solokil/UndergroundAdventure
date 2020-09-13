@@ -1,12 +1,12 @@
 {
-	"name": "Fiorite Core Basic",
-	"description": "A Core made from fiorite with large capacity and low size. 5000 health and 12000 capacity",
+	"name": "Celestial Nucleus",
+	"description": "A Core made from Morning Star Jewels with large capacity and health. 7500000 health and 500000 capacity",
 	"type": "CoreBlock",
-	"health": 500000,
+	"health": 7500000,
 	"breakable": true,
 	"destructible": true,
 	"size": 5,
-	"itemCapacity": 90000,
+	"itemCapacity": 500000,
 	"unloadable": true,
 	"requirements": [
 	    {
@@ -23,5 +23,5 @@
 		}
 	],
   "category": "effect",
-  "research": "tier2",
+  "research": "fiorite-core-basic",
 }
