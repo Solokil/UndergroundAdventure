@@ -1,0 +1,43 @@
+name: Celestial Underground Adventure Fight
+description: Time to take control from the high level outpost... At least try to do that... This will really really not be easy.
+startingItems:
+[
+  copper/6000
+  lead/2000
+]
+// the schematic for core substitution
+// can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
+loadout: nucleusOnly
+requirements: [
+  {
+    type: Launched
+    zone: paradise-conquer
+  }
+  {
+    type: Launched
+    zone: fragments-cave
+  }
+]
+configureObjective: {
+   type: Launched
+   zone: celestial-underground-fight
+}
+
+resources: [
+  copper
+  // my first mineral
+  iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  glass-fragment
+  fiorite
+  jiliorite
+  kalin
+  morning-star-alloy
+  // example-mod-gold-powder
+  // example-mod-silver
+]
