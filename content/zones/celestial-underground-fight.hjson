@@ -7,7 +7,7 @@ startingItems:
 ]
 // the schematic for core substitution
 // can be basicShard / advancedShard / basicFoundation / basicNucleus / nuclearComplexe
-loadout: nucleusOnly
+loadout: advancedShard
 requirements: [
   {
     type: Launched
