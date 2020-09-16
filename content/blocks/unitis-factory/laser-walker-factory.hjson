@@ -1,0 +1,24 @@
+name: Jiliorte Fighter Factory
+description: Produces medium ranged units, that works in solo or groups. Can make the enemy life a mass..
+type: UnitFactory
+unitType: laser-walker
+buildCostMultiplier: 0.2
+health: 2350
+size: 3
+produceTime: 1800
+maxSpawn: 3
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      hardened-titanium/4
+    ]
+  }
+}
+category: units
+research: jiliorite-voider-factory
+requirements: [
+  hardened-titanium-jewel/1
+  hardened-titanium/8
+  titanium/100
+]
