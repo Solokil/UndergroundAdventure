@@ -16,7 +16,7 @@ consumes: {
   }
 }
 category: units
-research: iron-waraith-factory
+research: iron-wraith-factory
 requirements: [
   jiliorite/80
   iron/15
