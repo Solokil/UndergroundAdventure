@@ -15,17 +15,17 @@ powerProduction: 2.5
 // }
 
 lightningChance: 0.5
-lightningDamage: 45000
-lightningLength: 30
+lightningDamage: 85000
+lightningLength: 60
 
 category: defense
    //this makes the block stays within the walls even not been one on type!
 name: Morning Star Wall
 description: A wall made out of Morning Star Alloy,  it's shiny produces lightnings and energy like a solar panel... But it's a wall!
-health: 1460380
-size: 2
+health: 13460380
+size: 1
 research: morning-star-alloy-constructor
 requirements: [
- morning-star-alloy/2
+ morning-star-alloy/8
  hardened-iron/50
 ]
