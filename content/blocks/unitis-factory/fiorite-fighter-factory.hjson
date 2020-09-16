@@ -1,7 +1,7 @@
 name: Jiliorte Fighter Factory
 description: Produces Jiliorite Foghters, an annoying unit that splits fire on things.
 type: UnitFactory
-unitType: jiliorite-fighter
+unitType: fiorite-fighter
 buildCostMultiplier: 0.2
 health: 850
 size: 3
