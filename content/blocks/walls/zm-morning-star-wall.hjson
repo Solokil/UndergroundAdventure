@@ -1,0 +1,27 @@
+type: SolarGenerator
+//old type was wall... This makes this blocks produce energy from nothing
+
+update: true
+breakable: true
+outputsPower: true
+consumesPower: false
+solid: true
+hasPower: true
+sync: true
+hasLiquids: false
+powerProduction: 2.5
+ // 150 energy per second
+// consumes: { // don't consumes nothing
+// }
+
+category: defense
+   //this makes the block stays within the walls even not been one on type!
+name: Morning Star Wall
+description: A wall made out of Morning Star Alloy,  it's shiny produces energy like a solar panel... But it's a wall!
+health: 1460380
+size: 2
+research: -wall
+requirements: [
+ morning-star-alloy/2
+ hardened-iron/50
+]
