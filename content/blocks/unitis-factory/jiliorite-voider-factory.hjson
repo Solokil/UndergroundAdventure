@@ -1,0 +1,25 @@
+name: Jiliorte Fighter Factory
+description: Produces close ranged units with strong attack power.
+type: UnitFactory
+unitType: jiliorite-voider
+buildCostMultiplier: 0.2
+health: 1550
+size: 3
+produceTime: 1800
+maxSpawn: 10
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      jiliorite-jewel/2
+      jiliorite/15
+    ]
+  }
+}
+category: units
+research: jiliorite-fighter-factory
+requirements: [
+  jiliorite-jewel/9
+  jiliorite/50
+  lead/200
+]
