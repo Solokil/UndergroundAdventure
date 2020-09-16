@@ -1,0 +1,24 @@
+name: Jiliorte Fighter Factory
+description: Produces Jiliorite Foghters, an annoying unit that splits fire on things.
+type: UnitFactory
+unitType: jiliorite-fighter
+buildCostMultiplier: 0.2
+health: 850
+size: 3
+produceTime: 1200
+maxSpawn: 10
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      fiorite/10
+    ]
+  }
+}
+category: units
+research: iron-waraith-factory
+requirements: [
+  fiorite/80
+  lead/90
+  copper/100
+]
