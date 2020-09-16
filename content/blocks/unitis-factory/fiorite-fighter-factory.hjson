@@ -16,7 +16,7 @@ consumes: {
   }
 }
 category: units
-research: iron-waraith-factory
+research: iron-wraith-factory
 requirements: [
   fiorite/80
   lead/90
