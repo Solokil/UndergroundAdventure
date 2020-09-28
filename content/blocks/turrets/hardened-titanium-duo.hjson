@@ -34,8 +34,6 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
   }
-
-  example-mod-electrum: lightning
 }
 requirements: [
   hardened-titanium/115
