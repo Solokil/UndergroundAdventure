@@ -17,7 +17,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: sniper-iron-turret
+    block: hardened-multuse-turret
   }  
   
 ]
