@@ -45,7 +45,7 @@ ammo: {
   }
 
 
-  example-mod-silver: {
+  iron: {
     speed: 3
     damage: 3
     bulletWidth: 7
