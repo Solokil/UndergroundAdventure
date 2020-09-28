@@ -44,7 +44,7 @@ resources: [
   titanium
   thorium
   // example-mod-gold-powder
-  example-mod-silver
+  // example-mod-silver
   fiorite
   jiliorite
 ]
