@@ -14,7 +14,7 @@ targetAir: true
 ammo: {
 
   jilifior-alloy: standardDenseBig
-  example-mod-electrum: lightning
+  hardened-titanium: lightning
   thorium: standardThorium
 
   jiliorite:{
