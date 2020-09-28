@@ -57,10 +57,10 @@ ammo: {
     ammoMultiplier: 20
     lifetime:160
   }
-  example-mod-silver: {
+  coal: {
     //move 6 world units per frame (very fast)
-    speed: 6
-    damage: 170
+    speed: 4
+    damage: 30
     bulletWidth: 6.5
     bulletHeight: 6.5
     shootEffect: shootSmall
