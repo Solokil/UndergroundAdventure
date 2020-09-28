@@ -43,8 +43,8 @@ resources: [
   lead
   coal
   sand
-  example-mod-silver
-  example-mod-gold-powder
+  //  example-mod-silver
+  //  example-mod-gold-powder
   titanium
   thorium
   fiorite
