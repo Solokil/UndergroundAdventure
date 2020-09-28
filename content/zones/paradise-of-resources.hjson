@@ -19,10 +19,10 @@ requirements: [
     type: Unlock
     block: sniper-iron-turret
   }  
-  {
-    type: Unlock
-    block: example-mod-silver-turret
-  }
+  // {
+  //  type: Unlock
+  //  block: example-mod-silver-turret
+  // }
 ]
 launchPeriod: 10 //use this only for maps that are ZoneWave Objective
    conditionWave: 15
