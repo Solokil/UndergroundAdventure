@@ -57,17 +57,7 @@ ammo: {
     ammoMultiplier: 20
     lifetime: 70
   }
-  example-mod-silver: {
-    //move 6 world units per frame (very fast)
-    speed: 6
-    damage: 1
-    bulletWidth: 6.5
-    bulletHeight: 6.5
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 23
-    lifetime: 70
-  }
+  
   copper: {
   speed: 3
   damage: 5
