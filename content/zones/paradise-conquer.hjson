@@ -19,10 +19,7 @@ requirements: [
     type: Unlock
     block: sniper-iron-turret
   }  
-  {
-    type: Unlock
-    block: sniper-turret
-  }
+  
 ]
 configureObjective: {
    type: Launched
