@@ -32,7 +32,7 @@ resources: [
   copper
   // if two bars are at the minery, it menas that the map does not have it
   // my first mineral
-  // iron
+  iron
   lead
   coal
   sand
