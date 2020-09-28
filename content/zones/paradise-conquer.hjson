@@ -21,7 +21,7 @@ requirements: [
   }  
   {
     type: Unlock
-    block: example-mod-silver-turret
+    block: sniper-turret
   }
 ]
 configureObjective: {
