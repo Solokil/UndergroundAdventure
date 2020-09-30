@@ -200,7 +200,7 @@ const wormBullet = extend(BasicBulletType, {
 	}
 });
 wormBullet.speed = 7;
-//scourgeBullet.damage = 40;
+//wormBullet.damage = 40;
 wormBullet.damage = 30;
 wormBullet.bulletSprite = "shell";
 wormBullet.weaveScale = 12;
