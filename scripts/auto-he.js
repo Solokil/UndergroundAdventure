@@ -1,4 +1,5 @@
-/*const autoHe = extendContent(UnitType, "auto-he", {
+//*
+const autoHe = extendContent(UnitType, "auto-he", {
 	update(){
 		this.super$update();
 			
@@ -12,5 +13,5 @@
 });
 
 autoHe.health = 1000000;
-autoHe.heal = 100;
-*/
+var heal = 100;
+/**/
