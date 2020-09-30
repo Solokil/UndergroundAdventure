@@ -713,12 +713,12 @@ const scourgeSegment = prov(() => {
 	wormSegmentB.setDrawerUnit(false);
 	wormSegmentB.setParentUnit(null);
 	wormSegmentB.setTrueParentUnit(null);
-	scourgeSegmentB.setChildUnit(null);
-	return scourgeSegmentB;
+	wormSegmentB.setChildUnit(null);
+	return wormSegmentB;
 });
 
-const scourgeMain = prov(() => {
-	scourgeMainB = extend(FlyingUnit, {
+const wormMain = prov(() => {
+	wormMainB = extend(FlyingUnit, {
 		update(){
 			this.super$update();
 			
@@ -749,14 +749,14 @@ const scourgeMain = prov(() => {
 			//unitTypeArray = [scourgeUnitSegment, scourgeUnitSegment, scourgeUnitMissile, scourgeUnitDestroyer];
 			this.setLastHealth(this.health());
 			
-			weaponArray = [scourgeSegWeap, scourgeSegWeap, scourgeSegSwarmer, scourgeSegDestroyer];
+			weaponArray = [wormSegWeap, wormSegWeap, wormSegSwarmer, wormSegDestroyer];  // weapons
 			
 			if(/*!this.loaded*/ true){
 				this.trueHealth = this.getType().health * totalSegments;
 				var parent = this;
 				//var weaponArray = [scourgeSegWeap, scourgeSegWeap, scourgeSegSwarmer,scourgeSegDestroyer];
 				for(var i = 0; i < totalSegments; i++){
-					type = i < totalSegments - 1 ? scourgeUnitSegment : scourgeUnitTail;
+					type = i < totalSegments - 1 ? wormUnitSegment : wormUnitTail;
 					//type = i < totalSegments - 1 ? (i % 2) == 0 ? scourgeUnitMissile : scourgeUnitSegment : scourgeUnitTail;
 					//type = i < totalSegments - 1 ? unitTypeArray[i % unitTypeArray.length] : scourgeUnitTail;
 					
