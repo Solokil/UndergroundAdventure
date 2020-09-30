@@ -1010,7 +1010,7 @@ const loadImmunities = unitType => {
 	}));
 };
 
-const wormUnitTail = extendContent(UnitType, "worm-tail", {
+const wormUnitTail = extendContent(UnitType, "mass-destroyer-worm-tail", {
 	init(){
 		this.super$init();
 		
@@ -1039,7 +1039,7 @@ wormUnitTail.attackLength = 130;
 wormUnitTail.range = 150;
 wormUnitTail.maxVelocity = 1.05;
 
-const wormUnitSegment = extendContent(UnitType, "worm-segment", {
+const wormUnitSegment = extendContent(UnitType, "mass-destroyer-worm-segment", {
 	init(){
 		this.super$init();
 		
