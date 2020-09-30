@@ -1,6 +1,6 @@
 var totalSegments = 100;
 
-var segmentOffset = 19;
+var segmentOffset = 15;
 
 const tempVec = new Vec2();
 const tempVecB = new Vec2();
@@ -64,8 +64,8 @@ Events.on(EventType.Trigger.update, run(() => {updatePersistantTiles()}));
 
 const segmentBullet = new BasicBulletType(8, 17, "shell");
 segmentBullet.lifetime = 30;
-segmentBullet.bulletWidth = 10;
-segmentBullet.bulletHeight = 15;
+segmentBullet.bulletWidth = 6;
+segmentBullet.bulletHeight = 10;
 segmentBullet.bulletShrink = 0.1;
 segmentBullet.keepVelocity = false;
 segmentBullet.frontColor = Pal.missileYellow;
@@ -82,29 +82,29 @@ const wormMissile = extend(BasicBulletType, {
 		b.velocity().rotate(Mathf.sin(Time.time() + b.id * 4422, this.weaveScale, this.weaveMag) * Time.delta());
 	}
 });
-scourgeMissile.speed = 7;
-scourgeMissile.damage = 12;
-scourgeMissile.bulletSprite = "missile";
-scourgeMissile.weaveScale = 9;
-scourgeMissile.weaveMag = 2;
-scourgeMissile.homingPower = 1;
-scourgeMissile.homingRange = 60;
-scourgeMissile.splashDamage = 20;
-scourgeMissile.splashDamageRadius = 25;
-scourgeMissile.hitEffect = Fx.hitMeltdown;
-scourgeMissile.despawnEffect = Fx.none;
-scourgeMissile.hitSize = 4;
-scourgeMissile.lifetime = 27;
-scourgeMissile.bulletWidth = 10;
-scourgeMissile.bulletHeight = 16;
-scourgeMissile.bulletShrink = 0.1;
-scourgeMissile.keepVelocity = false;
-scourgeMissile.frontColor = Pal.missileYellow;
-scourgeMissile.backColor = Pal.missileYellowBack;
+wormMissile.speed = 8;
+wormMissile.damage = 12;
+wormMissile.bulletSprite = "missile";
+wormMissile.weaveScale = 9;
+wormMissile.weaveMag = 2;
+wormMissile.homingPower = 1;
+wormMissile.homingRang.e = 60;
+wormMissile.splashDamage = 20;
+womMissile.splashDamageRadius = 25;
+wormMissile.hitEffect = Fx.hitMeltdown;
+wormMissile.despawnEffect = Fx.none;
+wormMissile.hitSize = 4;
+wormMissile.lifetime = 24;
+wormMissile.bulletWidth = 10;
+wormMissile.bulletHeight = 16;
+wormMissile.bulletShrink = 0.1;
+wormMissile.keepVelocity = false;
+wormMissile.frontColor = Pal.missileYellow;
+wormMissile.backColor = Pal.missileYellowBack;
 
 const tempRect = new Rect();
 
-const scourgeBullet = extend(BasicBulletType, {
+const wormBullet = extend(BasicBulletType, {
 	update(b){
 		this.super$update(b);
 		
@@ -199,27 +199,27 @@ const scourgeBullet = extend(BasicBulletType, {
 		};
 	}
 });
-scourgeBullet.speed = 7;
+wormBullet.speed = 7;
 //scourgeBullet.damage = 40;
-scourgeBullet.damage = 30;
-scourgeBullet.bulletSprite = "shell";
-scourgeBullet.weaveScale = 12;
-scourgeBullet.weaveMag = 6;
-scourgeBullet.homingPower = 1;
-scourgeBullet.homingRange = 60;
-scourgeBullet.splashDamage = 30;
-scourgeBullet.splashDamageRadius = 20;
-scourgeBullet.hitEffect = Fx.hitMeltdown;
-scourgeBullet.despawnEffect = Fx.none;
-scourgeBullet.hitSize = 4;
-scourgeBullet.lifetime = 30;
-scourgeBullet.pierce = true;
-scourgeBullet.bulletWidth = 12;
-scourgeBullet.bulletHeight = 21;
-scourgeBullet.bulletShrink = 0.1;
+wormBullet.damage = 30;
+wormBullet.bulletSprite = "shell";
+wormBullet.weaveScale = 12;
+wormBullet.weaveMag = 6;
+wormBullet.homingPower = 1;
+wormBullet.homingRange = 60;
+wormBullet.splashDamage = 30;
+wormBullet.splashDamageRadius = 20;
+wormBullet.hitEffect = Fx.hitMeltdown;
+wormBullet.despawnEffect = Fx.none;
+wormBullet.hitSize = 4;
+wormBullet.lifetime = 30;
+wormBullet.pierce = true;
+wormBullet.bulletWidth = 12;
+wormBullet.bulletHeight = 21;
+wormBullet.bulletShrink = 0.1;
 //scourgeBullet.keepVelocity = false;
-scourgeBullet.frontColor = Pal.missileYellow;
-scourgeBullet.backColor = Pal.missileYellowBack;
+wormBullet.frontColor = Pal.missileYellow;
+wormBullet.backColor = Pal.missileYellowBack;
 
 //var trueBulletMultiplier = 1;
 
@@ -242,7 +242,7 @@ const bulletCollision = (owner, bullet, multiplier) => {
 			tempBulletType = tempBulletType.fragBullet;
 		};
 	};
-	var ownerBulletTypes = bulletType == scourgeBullet || bulletType == segmentBullet || bulletType == scourgeMissile;
+	var ownerBulletTypes = bulletType == wormBullet || bulletType == segmentBullet || bulletType == wormMissile;
 	//print((bulletType.damage + bulletType.splashDamage) * damageMul);
 	if(((bulletType.damage + bulletType.splashDamage) * pierceB * damageMul * multiplier > threshold) || ownerBulletTypes){
 		var bulletOwner = bullet.getOwner();
@@ -316,7 +316,7 @@ overlayBullet.pierce = true;
 overlayBullet.lifetime = 10 * 60;
 
 const scourgeSegment = prov(() => {
-	scourgeSegmentB = extend(FlyingUnit, {
+	wormSegmentB = extend(FlyingUnit, {
 		update(){
 			if((this.getParentUnit() == null || (this.getParentUnit().isDead() && this.getParentUnit() != null)) && !this.isDead()){
 				//this.kill();
@@ -676,7 +676,8 @@ const scourgeSegment = prov(() => {
 			if(dst1 > 0.002){
 				
 				if(Angles.near(angle1, this.velocity().angle(), 12)){
-					this.velocity().trns(angle1, parentB.velocity().len() + dst1);
+					///*8888888]
+					 <this.velocity().trns(angle1, parentB.velocity().len() + dst1);
 				};
 				
 				//tempVec.trns(angle1, dst1);
@@ -708,10 +709,10 @@ const scourgeSegment = prov(() => {
 	});
 	//scourgeSegmentB.repaired = false;
 	//scourgeSegmentB.parentID = -1;
-	scourgeSegmentB.setWeapon(null);
-	scourgeSegmentB.setDrawerUnit(false);
-	scourgeSegmentB.setParentUnit(null);
-	scourgeSegmentB.setTrueParentUnit(null);
+	wormSegmentB.setWeapon(null);
+	wormSegmentB.setDrawerUnit(false);
+	wormSegmentB.setParentUnit(null);
+	wormSegmentB.setTrueParentUnit(null);
 	scourgeSegmentB.setChildUnit(null);
 	return scourgeSegmentB;
 });
