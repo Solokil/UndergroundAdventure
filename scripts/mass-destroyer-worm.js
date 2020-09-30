@@ -1,4 +1,4 @@
-var totalSegments = 100;
+var totalSegments = 100;   // 752 = weapons  944 && 958 && 978 = mod name use and weapon name
 
 var segmentOffset = 15;
 
@@ -930,76 +930,76 @@ const wormMain = prov(() => {
 		}
 	});
 	//scourgeMainB.trueHealth = 0;
-	scourgeMainB.setLastHealth(0);
-	scourgeMainB.setExplosionCounter(0);
+	wormMainB.setLastHealth(0);
+	wormMainB.setExplosionCounter(0);
 	//scourgeMainB.setCollidedBool(false);
-	scourgeMainB.timer = new Interval(6);
-	scourgeMainB.setChildUnit(null);
-	scourgeMainB.setBulletMultiplier(1);
-	return scourgeMainB;
+	wormMainB.timer = new Interval(6);
+	wormMainB.setChildUnit(null);
+	wormMainB.setBulletMultiplier(1);
+	return wormMainB;
 })
 
-const scourgeSegWeap = extendContent(Weapon, "scourge-segment-equip", {
+const wormSegWeap = extendContent(Weapon, "worm-segment-equip", {
 	load(){
-		this.region = Core.atlas.find("advancecontent-scourge-segment-equip");
+		this.region = Core.atlas.find("underground-adventure-worm-segment-equip");
 	}
 });
 
-scourgeSegWeap.reload = 7;
-scourgeSegWeap.alternate = true;
-scourgeSegWeap.length = 8;
-scourgeSegWeap.width = 19;
-scourgeSegWeap.ignoreRotation = true;
-scourgeSegWeap.bullet = segmentBullet;
-scourgeSegWeap.shootSound = Sounds.shootSnap;
+wormSegWeap.reload = 10;
+wormSegWeap.alternate = true;
+wormSegWeap.length = 6;
+wormSegWeap.width = 13;
+wormSegWeap.ignoreRotation = true;
+wormmSegWeap.bullet = segmentBullet;
+wormSegWeap.shootSound = Sounds.shootSnap;
 
-const scourgeSegDestroyer = extendContent(Weapon, "scourge-segment-destroyer", {
+const wormSegDestroyer = extendContent(Weapon, "worm-segment-destroyer", {
 	load(){
-		this.region = Core.atlas.find("advancecontent-scourge-segment-destroyer");
+		this.region = Core.atlas.find("underground-adventure-worm-segment-destroyer");
 	}
 });
 
-scourgeSegDestroyer.reload = 37;
-scourgeSegDestroyer.alternate = true;
-scourgeSegDestroyer.length = 8;
-scourgeSegDestroyer.width = 19;
-scourgeSegDestroyer.spacing = 0;
-scourgeSegDestroyer.shots = 4;
-scourgeSegDestroyer.recoil = 5.5;
-//scourgeSegDestroyer.recoil = 12.5;
-scourgeSegDestroyer.inaccuracy = 4;
-scourgeSegDestroyer.shotDelay = 3;
-scourgeSegDestroyer.ignoreRotation = true;
-scourgeSegDestroyer.bullet = scourgeBullet;
-scourgeSegDestroyer.shootSound = Sounds.artillery;
+wormSegDestroyer.reload = 30;
+wormSegDestroyer.alternate = true;
+wormSegDestroyer.length = 8;
+wormSegDestroyer.width = 19;
+wormSegDestroyer.spacing = 0;
+wormSegDestroyer.shots = 6;
+wormSegDestroyer.recoil = 5.5;
+//wormSegDestroyer.recoil = 12.5;
+wormSegDestroyer.inaccuracy = 4;
+wormSegDestroyer.shotDelay = 3;
+wormSegDestroyer.ignoreRotation = true;
+wormSegDestroyer.bullet = wormBullet;
+wormSegDestroyer.shootSound = Sounds.artillery;
 
-const scourgeSegSwarmer = extendContent(Weapon, "scourge-segment-swarmer", {
+const wormSegSwarmer = extendContent(Weapon, "worm-segment-swarmer", {
 	load(){
-		this.region = Core.atlas.find("advancecontent-scourge-segment-swarmer");
+		this.region = Core.atlas.find("underground-adventure-worm-segment-swarmer");
 	}
 });
 
-scourgeSegSwarmer.reload = 20;
-scourgeSegSwarmer.alternate = true;
-scourgeSegSwarmer.spacing = 8;
-scourgeSegSwarmer.shots = 6;
-scourgeSegSwarmer.length = 8;
-scourgeSegSwarmer.width = 19;
-scourgeSegSwarmer.ignoreRotation = true;
-scourgeSegSwarmer.bullet = scourgeMissile;
-scourgeSegSwarmer.shootSound = Sounds.missile;
+wormSegSwarmer.reload = 20;
+wormSegSwarmer.alternate = true;
+wormSegSwarmer.spacing = 8;
+wormSegSwarmer.shots = 6;
+wormSegSwarmer.length = 8;
+wormSegSwarmer.width = 19;
+wormSegSwarmer.ignoreRotation = true;
+wormSegSwarmer.bullet = wormMissile;
+wormSegSwarmer.shootSound = Sounds.missile;
 
-const scourgeHeadWeap = extendContent(Weapon, "scourge-head-equip", {});
+const wormHeadWeap = extendContent(Weapon, "worm-head-equip", {});
 
-scourgeHeadWeap.reload = 25;
-scourgeHeadWeap.alternate = true;
-scourgeHeadWeap.spacing = 4;
-scourgeHeadWeap.shots = 15;
-scourgeHeadWeap.length = 16;
-scourgeHeadWeap.width = 0;
-scourgeHeadWeap.ignoreRotation = false;
-scourgeHeadWeap.bullet = scourgeBullet;
-scourgeHeadWeap.shootSound = Sounds.artillery;
+wormHeadWeap.reload = 30;
+wormHeadWeap.alternate = true;
+wormHeadWeap.spacing = 3;
+wormHeadWeap.shots = 30;
+wormHeadWeap.length = 16;
+woormHeadWeap.width = 0;
+wormHeadWeap.ignoreRotation = false;
+wormHeadWeap.bullet = scourgeBullet;
+wormHeadWeap.shootSound = Sounds.artillery;
 
 const loadImmunities = unitType => {
 	var statuses = Vars.content.getBy(ContentType.status);
@@ -1010,7 +1010,7 @@ const loadImmunities = unitType => {
 	}));
 };
 
-const scourgeUnitTail = extendContent(UnitType, "scourge-tail", {
+const wormUnitTail = extendContent(UnitType, "worm-tail", {
 	init(){
 		this.super$init();
 		
@@ -1022,24 +1022,24 @@ const scourgeUnitTail = extendContent(UnitType, "scourge-tail", {
 	}
 });
 
-scourgeUnitTail.localizedName = "Zenith Tail";
-scourgeUnitTail.create(scourgeSegment);
-scourgeUnitTail.weapon = scourgeSegWeap;
-scourgeUnitTail.engineSize = 0;
-scourgeUnitTail.engineOffset = 0;
-scourgeUnitTail.flying = true;
-scourgeUnitTail.rotateWeapon = true;
-scourgeUnitTail.shootCone = 360;
-scourgeUnitTail.health = 32767;
-scourgeUnitTail.mass = 11;
-scourgeUnitTail.hitsize = segmentOffset / 1.5;
-scourgeUnitTail.speed = 0;
-scourgeUnitTail.drag = 0.075;
-scourgeUnitTail.attackLength = 130;
-scourgeUnitTail.range = 150;
-scourgeUnitTail.maxVelocity = 1.05;
+wormUnitTail.localizedName = "Mass Micro Worm Tail";
+wormUnitTail.create(wormSegment);
+wormUnitTail.weapon = wormSegWeap;
+wormUnitTail.engineSize = 0;
+wormUnitTail.engineOffset = 0;
+wormUnitTail.flying = true;
+wormUnitTail.rotateWeapon = true;
+wormUnitTail.shootCone = 360;
+wormUnitTail.health = 32767;
+wormUnitTail.mass = 11;
+wormUnitTail.hitsize = segmentOffset / 1.5;
+wormUnitTail.speed = 0;
+wormUnitTail.drag = 0.075;
+wormUnitTail.attackLength = 130;
+wormUnitTail.range = 150;
+wormUnitTail.maxVelocity = 1.05;
 
-const scourgeUnitSegment = extendContent(UnitType, "scourge-segment", {
+const wormUnitSegment = extendContent(UnitType, "worm-segment", {
 	init(){
 		this.super$init();
 		
@@ -1049,7 +1049,7 @@ const scourgeUnitSegment = extendContent(UnitType, "scourge-segment", {
 	load(){
 		this.super$load();
 		
-		weaponArray = [scourgeSegSwarmer, scourgeSegDestroyer];
+		weaponArray = [wormSegSwarmer, wormSegDestroyer];
 		
 		for(var s = 0; s < weaponArray.length; s++){
 			weaponArray[s].load();
