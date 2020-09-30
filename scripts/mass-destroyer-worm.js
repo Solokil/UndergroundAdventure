@@ -315,7 +315,7 @@ overlayBullet.collidesTiles = false;
 overlayBullet.pierce = true;
 overlayBullet.lifetime = 10 * 60;
 
-const WORMSegment = prov(() => {
+const wormSegment = prov(() => {
 	wormSegmentB = extend(FlyingUnit, {
 		update(){
 			if((this.getParentUnit() == null || (this.getParentUnit().isDead() && this.getParentUnit() != null)) && !this.isDead()){
